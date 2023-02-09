@@ -19,7 +19,7 @@ static String modes[] {"Power Off", "Rainbow"};
 
 
 //Scale parametes
-HX711_ADC LoadCell(1, 2);
+HX711_ADC LoadCell(D1, D2); //DOUT, CLK
 float calibration_factor = 1090;       //Assuming a calibration_factor
 float weight;
 double tareValue;
@@ -164,6 +164,7 @@ void setup() {
     ws2812fx.start();                        //Setup Function
 
     //Load Cell Setup
+    LoadCell.begin();
     LoadCell.start(2000, true);
     if (LoadCell.getTareTimeoutFlag()) {
         Serial.println("Timeout, check MCU>HX711 wiring and pin designations");
