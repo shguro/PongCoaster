@@ -5,6 +5,7 @@
 #include <ESP8266mDNS.h>
 #include <Preferences.h>
 #include <HX711_ADC.h>
+#include <DNSServer.h>
 
 //Main stuff
 Preferences preferences;
@@ -35,6 +36,7 @@ unsigned long previousMillisVoltage = 0;
 //Network Configuration
 const byte DNS_PORT = 53;
 IPAddress apIP(192, 168, 4, 1);
+DNSServer dnsServer;
 char hostname_array[32];
 String hostname;
 String ssid;
@@ -52,8 +54,7 @@ uint16_t wifiPassText;
 uint16_t configSaveButton;
 
 //callbacks
-void tareButtonCallback(Control* sender, int type)
-{
+void tareButtonCallback(Control* sender, int type) {
     switch (type) {
         case B_DOWN:
             LoadCell.tareNoDelay();
@@ -64,8 +65,7 @@ void tareButtonCallback(Control* sender, int type)
     }
 }
 
-void modeSelectCallback(Control* sender, int type)
-{
+void modeSelectCallback(Control* sender, int type) {
     String input = sender->value;
     if (sender->value.equals("Rainbow")) {
         ws2812fx.setBrightness(255);
@@ -75,25 +75,29 @@ void modeSelectCallback(Control* sender, int type)
     }
 }
 
-void configSaveButtonCallback(Control* sender, int type)
-{   
-     switch (type) {
-        case B_DOWN:
-            hostname = ESPUI.getControl(hostnameText)->value;
-            ssid = ESPUI.getControl(ssidText)->value;
-            wifiPass = ESPUI.getControl(wifiPassText)->value;
+void configSaveButtonCallback(Control* sender, int type) {   
+    switch (type) {
+    case B_DOWN:
+        hostname = ESPUI.getControl(hostnameText)->value;
+        ssid = ESPUI.getControl(ssidText)->value;
+        wifiPass = ESPUI.getControl(wifiPassText)->value;
 
-            Serial.println(ssid);
+        Serial.println(ssid);
 
-            preferences.begin("PongCoaster", false);
-            preferences.putString("hostname", hostname);
-            preferences.putString("ssid", ssid);
-            preferences.putString("wifiPass", wifiPass);
-            preferences.end();
+        preferences.begin("PongCoaster", false);
+        preferences.putString("hostname", hostname);
+        preferences.putString("ssid", ssid);
+        preferences.putString("wifiPass", wifiPass);
+        preferences.end();
+        Serial.print("Hostname: " + hostname + "\nSSID: " + ssid + "\n"+ "\nPass: " + wifiPass + "\n");
 
-            delay(1000);
-            ESP.restart();
-        }
+        delay(1000);
+        ESP.restart();
+    }
+}
+
+void textCallback(Control* sender, int type) {
+
 }
 
 void connectWifi() {
@@ -105,7 +109,7 @@ void connectWifi() {
     hostname = preferences.getString("hostname", "PONGCOASTER");
     ssid = preferences.getString("ssid", "PONGCOASTER");
     wifiPass = preferences.getString("wifiPass","DefaultPassword");
-    Serial.print("Hostname: " + hostname + "\nSSID: " + ssid + "\n");
+    Serial.print("Hostname: " + hostname + "\nSSID: " + ssid + "\n"+ "\nPass: " + wifiPass + "\n");
 
     preferences.end();
 
@@ -133,12 +137,14 @@ void connectWifi() {
 		WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
 		WiFi.softAP(hostname);
 
+
 		connect_timeout = 20;
 		do {
 			delay(250);
 			Serial.print(",");
 			connect_timeout--;
 		} while(connect_timeout);
+        dnsServer.start(DNS_PORT, "*", apIP);
 	}
 }
 
@@ -186,9 +192,9 @@ void setup() {
 	}
 
     //SettingsTab
-    ssidText = ESPUI.addControl(ControlType::Text, "SSID", ssid, ControlColor::Carrot, settingsTab);
-    wifiPassText = ESPUI.addControl(ControlType::Text, "Wifi Password", wifiPass, ControlColor::Carrot, settingsTab);
-    hostnameText = ESPUI.addControl(ControlType::Text, "Hostname", hostname, ControlColor::Carrot, settingsTab);
+    ssidText = ESPUI.addControl(ControlType::Text, "SSID", ssid, ControlColor::Carrot, settingsTab, &textCallback);
+    wifiPassText = ESPUI.addControl(ControlType::Text, "Wifi Password", wifiPass, ControlColor::Carrot, settingsTab, &textCallback);
+    hostnameText = ESPUI.addControl(ControlType::Text, "Hostname", hostname, ControlColor::Carrot, settingsTab, &textCallback);
     configSaveButton = ESPUI.addControl(ControlType::Button, "Save Configuration", "Save & Reboot", ControlColor::Carrot, settingsTab, &configSaveButtonCallback);
 
     //Start ESPUi
@@ -199,10 +205,13 @@ void setup() {
 
 void loop() {
     ArduinoOTA.handle();
+    if(WiFi.getMode() == WIFI_AP) {
+        dnsServer.processNextRequest();
+    }
     unsigned long currentMillis = millis();
 
     //LED Handling
-    if(currentMillis - previousMillisLed >= 1000/20){ //60fps
+    if(currentMillis - previousMillisLed >= 1000/20) { //60fps
         previousMillisLed = currentMillis;
         ws2812fx.service();
     }
@@ -217,7 +226,7 @@ void loop() {
     }
 
     //Read Voltage
-    if(currentMillis - previousMillisVoltage >= 2000){
+    if(currentMillis - previousMillisVoltage >= 2000) {
         previousMillisVoltage = currentMillis;
         voltageSum = voltageSum - voltageReadings[voltageIndex];       // Remove the oldest entry from the sum
         voltageValue = (analogRead(A0)/1023.0)*4.5;        // Read the next sensor value
