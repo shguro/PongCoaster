@@ -25,6 +25,8 @@ float calibration_factor = 1090;       //Assuming a calibration_factor
 float weight;
 double tareValue;
 volatile boolean newDataReady;
+int dataSlowdown = 0;
+int dataSlowdownValue = 5;
 //#define SCK_DISABLE_INTERRUPTS 1
 
 //Voltage
@@ -231,7 +233,11 @@ void loop() {
     if (newDataReady) {
         weight = LoadCell.getData();      // get smoothed value from the dataset:
         newDataReady = 0;
-        ESPUI.print(valueLabel, String(weight));
+        dataSlowdownValue++;
+        if(dataSlowdownValue >= 10) {
+            dataSlowdownValue = 0;
+            ESPUI.print(valueLabel, String(weight));
+        }
     }
 
 
