@@ -236,6 +236,7 @@ void loop() {
     // get smoothed value from the dataset:
     if (newDataReady) {
         weight = LoadCell.getData();      // get smoothed value from the dataset:
+        newDataReady = 0;
         ESPUI.print(valueLabel, String(weight));
     }
 
