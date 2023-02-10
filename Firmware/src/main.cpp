@@ -19,10 +19,14 @@ static String modes[] {"Power Off", "Rainbow"};
 
 
 //Scale parametes
-HX711_ADC LoadCell(D1, D2); //DOUT, CLK
+const int HX711_dout = D1; //mcu > HX711 dout pin, must be external interrupt capable!
+const int HX711_sck = D2; //mcu > HX711 sck pin
+HX711_ADC LoadCell(HX711_dout, HX711_sck); //DOUT, CLK
 float calibration_factor = 1090;       //Assuming a calibration_factor
 float weight;
 double tareValue;
+volatile boolean newDataReady;
+//#define SCK_DISABLE_INTERRUPTS 1
 
 //Voltage
 #define VOLTAGE_WINDOW_SIZE 10
@@ -78,6 +82,7 @@ void modeSelectCallback(Control* sender, int type) {
 void configSaveButtonCallback(Control* sender, int type) {   
     switch (type) {
     case B_DOWN:
+        noInterrupts();
         hostname = ESPUI.getControl(hostnameText)->value;
         ssid = ESPUI.getControl(ssidText)->value;
         wifiPass = ESPUI.getControl(wifiPassText)->value;
@@ -97,7 +102,14 @@ void configSaveButtonCallback(Control* sender, int type) {
 }
 
 void textCallback(Control* sender, int type) {
+    Serial.println(sender->value);
+}
 
+//interrupt routine:
+void ICACHE_RAM_ATTR dataReadyISR() {
+  if (LoadCell.update()) {
+    newDataReady = 1;
+  }
 }
 
 void connectWifi() {
@@ -163,18 +175,6 @@ void setup() {
     ws2812fx.setMode(FX_MODE_RAINBOW_CYCLE);
     ws2812fx.start();                        //Setup Function
 
-    //Load Cell Setup
-    LoadCell.begin();
-    LoadCell.start(2000, true);
-    if (LoadCell.getTareTimeoutFlag()) {
-        Serial.println("Timeout, check MCU>HX711 wiring and pin designations");
-        while (1);
-    }
-    else {
-        LoadCell.setCalFactor(calibration_factor); // set calibration value (float)
-        Serial.println("Startup is complete");
-    }
-
     //Setup ESPUi
     ESPUI.setVerbosity(Verbosity::Quiet);
     mainTab = ESPUI.addControl(ControlType::Tab, "Main", "Main");
@@ -202,12 +202,27 @@ void setup() {
     int hostname_len = hostname.length() + 1;
     hostname.toCharArray(hostname_array,hostname_len);
     ESPUI.begin(hostname_array);
+
+    //Load Cell Setup
+    LoadCell.begin();
+    LoadCell.start(2000, true);
+    if (LoadCell.getTareTimeoutFlag()) {
+        Serial.println("Timeout, check MCU>HX711 wiring and pin designations");
+        while (1);
+    }
+    else {
+        LoadCell.setCalFactor(calibration_factor); // set calibration value (float)
+        Serial.println("Startup is complete");
+    }
+    attachInterrupt(digitalPinToInterrupt(HX711_dout), dataReadyISR, FALLING);
 }
 
 void loop() {
     ArduinoOTA.handle();
     if(WiFi.getMode() == WIFI_AP) {
         dnsServer.processNextRequest();
+    } else {
+        MDNS.update();
     }
     unsigned long currentMillis = millis();
 
@@ -218,13 +233,12 @@ void loop() {
     }
 
     //Read Load Cell
-    static boolean newDataReady = 0;
-    if (LoadCell.update()) newDataReady = true;
-
+    // get smoothed value from the dataset:
     if (newDataReady) {
         weight = LoadCell.getData();      // get smoothed value from the dataset:
         ESPUI.print(valueLabel, String(weight));
     }
+
 
     //Read Voltage
     if(currentMillis - previousMillisVoltage >= 2000) {
@@ -238,6 +252,4 @@ void loop() {
 
         ESPUI.print(voltageLabel, String(voltageAvarage, 2));
     }
-
-
 }
