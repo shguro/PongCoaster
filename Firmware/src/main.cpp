@@ -2,7 +2,6 @@
 #include <ArduinoOTA.h>
 #include <ESPUI.h>
 #include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
 #include <Preferences.h>
 #include <HX711_ADC.h>
 #include <DNSServer.h>
@@ -140,9 +139,6 @@ void connectWifi() {
 		Serial.println(WiFi.localIP());
 		Serial.println("Wifi started");
 
-		if (!MDNS.begin(hostname)) {
-			Serial.println("Error setting up MDNS responder!");
-		}
 	} else {
 		Serial.println("\nCreating access point...");
 		WiFi.mode(WIFI_AP);
@@ -221,8 +217,6 @@ void loop() {
     ArduinoOTA.handle();
     if(WiFi.getMode() == WIFI_AP) {
         dnsServer.processNextRequest();
-    } else {
-        MDNS.update();
     }
     unsigned long currentMillis = millis();
 
