@@ -1,13 +1,28 @@
 #include <WS2812FX.h>
 #include <ArduinoOTA.h>
-#include <ESPUI.h>
 #include <ESP8266WiFi.h>
 #include <Preferences.h>
 #include <HX711_ADC.h>
 #include <DNSServer.h>
+#include <ESP8266WebServer.h>
+#include <WiFiManager.h>
+#include <ESP8266mDNS.h>
+#include <PubSubClient.h>
 
-//Main stuff
+//Config
 Preferences preferences;
+bool shouldSaveConfig = false;
+char hostname[32] = "PONGCOASTER";
+char mqtt_server[40];
+char mqtt_port[6] = "8080";
+char api_token[34] = "YOUR_API_TOKEN";
+
+//WifiManager
+WiFiManager wifiManager;
+
+//MQTT
+WiFiClient espClient;
+PubSubClient client(espClient);
 
 //LED
 #define LED_COUNT 18
@@ -26,8 +41,7 @@ float weight;
 double tareValue;
 volatile boolean newDataReady;
 int dataSlowdown = 0;
-int dataSlowdownValue = 5;
-//#define SCK_DISABLE_INTERRUPTS 1
+int dataSlowdownValue = 1;
 
 //Voltage
 #define VOLTAGE_WINDOW_SIZE 10
@@ -38,74 +52,6 @@ double voltageReadings[VOLTAGE_WINDOW_SIZE];
 double voltageAvarage = 0;
 unsigned long previousMillisVoltage = 0;
 
-//Network Configuration
-const byte DNS_PORT = 53;
-IPAddress apIP(192, 168, 4, 1);
-DNSServer dnsServer;
-char hostname_array[32];
-String hostname;
-String ssid;
-String wifiPass;
-
-//UI Elememnts
-uint16_t mainTab;
-uint16_t settingsTab;
-uint16_t valueLabel;
-uint16_t voltageLabel;
-uint16_t modeSelect;
-uint16_t hostnameText;
-uint16_t ssidText;
-uint16_t wifiPassText;
-uint16_t configSaveButton;
-
-//callbacks
-void tareButtonCallback(Control* sender, int type) {
-    switch (type) {
-        case B_DOWN:
-            LoadCell.tareNoDelay();
-            break;
-
-        case B_UP:
-            break;
-    }
-}
-
-void modeSelectCallback(Control* sender, int type) {
-    String input = sender->value;
-    if (sender->value.equals("Rainbow")) {
-        ws2812fx.setBrightness(255);
-        ws2812fx.setMode(FX_MODE_RAINBOW_CYCLE);
-    } else if (sender->value.equals("Power Off")) {
-        ws2812fx.setBrightness(0);
-    }
-}
-
-void configSaveButtonCallback(Control* sender, int type) {   
-    switch (type) {
-    case B_DOWN:
-        noInterrupts();
-        hostname = ESPUI.getControl(hostnameText)->value;
-        ssid = ESPUI.getControl(ssidText)->value;
-        wifiPass = ESPUI.getControl(wifiPassText)->value;
-
-        Serial.println(ssid);
-
-        preferences.begin("PongCoaster", false);
-        preferences.putString("hostname", hostname);
-        preferences.putString("ssid", ssid);
-        preferences.putString("wifiPass", wifiPass);
-        preferences.end();
-        Serial.print("Hostname: " + hostname + "\nSSID: " + ssid + "\n"+ "\nPass: " + wifiPass + "\n");
-
-        delay(1000);
-        ESP.restart();
-    }
-}
-
-void textCallback(Control* sender, int type) {
-    Serial.println(sender->value);
-}
-
 //interrupt routine:
 void ICACHE_RAM_ATTR dataReadyISR() {
   if (LoadCell.update()) {
@@ -113,54 +59,93 @@ void ICACHE_RAM_ATTR dataReadyISR() {
   }
 }
 
-void connectWifi() {
-	int connect_timeout;
-	Serial.print("Load Wifi Settings\n");
+//callback notifying us of the need to save config
+void saveConfigCallback () {
+  Serial.println("Should save config");
+  shouldSaveConfig = true;
+}
 
-    preferences.begin("PongCoaster", false);
+void callback(char* topic, byte* payload, unsigned int length) {
+  Serial.print("Message arrived [");
+  Serial.print(topic);
+  Serial.print("] ");
+  for (int i = 0; i < length; i++) {
+    Serial.print((char)payload[i]);
+  }
+  Serial.println();
+}
 
-    hostname = preferences.getString("hostname", "PONGCOASTER");
-    ssid = preferences.getString("ssid", "PONGCOASTER");
-    wifiPass = preferences.getString("wifiPass","DefaultPassword");
-    Serial.print("Hostname: " + hostname + "\nSSID: " + ssid + "\n"+ "\nPass: " + wifiPass + "\n");
-
-    preferences.end();
-
-	WiFi.hostname(hostname);
-	Serial.println("Begin wifi...");
-    WiFi.begin(ssid, wifiPass);
-
-    connect_timeout = 28; //7 seconds
-    while (WiFi.status() != WL_CONNECTED && connect_timeout > 0) {
-        delay(250);
-        Serial.print(".");
-        connect_timeout--;
+void reconnect() {
+  // Loop until we're reconnected
+  while (!client.connected()) {
+    Serial.print("Attempting MQTT connection...");
+    // Create a random client ID
+    String clientId = "ESP8266Client-";
+    clientId += String(random(0xffff), HEX);
+    // Attempt to connect
+    if (client.connect(clientId.c_str())) {
+      Serial.println("connected");
+      // Once connected, publish an announcement...
+      client.publish("outTopic", "hello world");
+      // ... and resubscribe
+      client.subscribe("inTopic");
+    } else {
+      Serial.print("failed, rc=");
+      Serial.print(client.state());
+      Serial.println(" try again in 5 seconds");
+      // Wait 5 seconds before retrying
+      delay(5000);
     }
-		
-	if (WiFi.status() == WL_CONNECTED) {
-		Serial.println(WiFi.localIP());
-		Serial.println("Wifi started");
-
-	} else {
-		Serial.println("\nCreating access point...");
-		WiFi.mode(WIFI_AP);
-		WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
-		WiFi.softAP(hostname);
-
-
-		connect_timeout = 20;
-		do {
-			delay(250);
-			Serial.print(",");
-			connect_timeout--;
-		} while(connect_timeout);
-        dnsServer.start(DNS_PORT, "*", apIP);
-	}
+  }
 }
 
 void setup() {
     Serial.begin(57600);
-    connectWifi();
+    preferences.begin("PongCoaster", false);
+    preferences.getString("hostname", "PONGCOASTER").toCharArray(hostname, 32);
+
+    WiFiManagerParameter custom_mqtt_server("server", "mqtt server", mqtt_server, 40);
+    WiFiManagerParameter custom_mqtt_port("port", "mqtt port", mqtt_port, 6);
+    WiFiManagerParameter custom_api_token("apikey", "API token", api_token, 32);
+    WiFiManagerParameter custom_hostname("hostname", "Hostname", hostname, 32);
+
+
+    //add all your parameters here
+    wifiManager.addParameter(&custom_mqtt_server);
+    wifiManager.addParameter(&custom_mqtt_port);
+    wifiManager.addParameter(&custom_api_token);
+
+
+    bool result;
+    result = wifiManager.autoConnect(hostname);
+    if(!result) {
+        Serial.println("Failed to connect");
+    } 
+    else {
+        //if you get here you have connected to the WiFi    
+        Serial.println("connected...yeey :)");
+    }
+
+    //read updated parameters
+    strcpy(hostname, custom_hostname.getValue());
+    strcpy(mqtt_server, custom_mqtt_server.getValue());
+    strcpy(mqtt_port, custom_mqtt_port.getValue());
+    strcpy(api_token, custom_api_token.getValue());
+
+    Serial.println("The values in the file are: ");
+    Serial.println("\thostname : " + String(hostname));
+    Serial.println("\tmqtt_server : " + String(mqtt_server));
+    Serial.println("\tmqtt_port : " + String(mqtt_port));
+    Serial.println("\tapi_token : " + String(api_token));
+
+    if(shouldSaveConfig) {
+        preferences.putString("hostname", hostname);
+        preferences.putString("mqtt_server", mqtt_server);
+        preferences.putString("mqtt_port", mqtt_port);
+        preferences.putString("api_token", api_token);
+    }
+
+    MDNS.begin(hostname);
     ArduinoOTA.begin();
 
     //Battery Input
@@ -173,33 +158,6 @@ void setup() {
     ws2812fx.setMode(FX_MODE_RAINBOW_CYCLE);
     ws2812fx.start();                        //Setup Function
 
-    //Setup ESPUi
-    ESPUI.setVerbosity(Verbosity::Quiet);
-    mainTab = ESPUI.addControl(ControlType::Tab, "Main", "Main");
-    settingsTab = ESPUI.addControl(ControlType::Tab, "Settings", "Settings");
-
-    //Main Tab
-    ESPUI.addControl(ControlType::Button, "Tare scale", "Tare", ControlColor::Peterriver, mainTab, &tareButtonCallback);
-
-    valueLabel = ESPUI.addControl(ControlType::Label, "Value in g:", "", ControlColor::Turquoise, mainTab);
-    voltageLabel = ESPUI.addControl(ControlType::Label, "Battery Voltage:", "", ControlColor::Sunflower, mainTab);
-
-    uint16_t modeSelect = ESPUI.addControl(ControlType::Select, "Mode Select", "Rainbow", ControlColor::Alizarin, mainTab, &modeSelectCallback);
-
-	for(auto const& v : modes) {
-		ESPUI.addControl(Option, v.c_str(), v, None, modeSelect);
-	}
-
-    //SettingsTab
-    ssidText = ESPUI.addControl(ControlType::Text, "SSID", ssid, ControlColor::Carrot, settingsTab, &textCallback);
-    wifiPassText = ESPUI.addControl(ControlType::Text, "Wifi Password", wifiPass, ControlColor::Carrot, settingsTab, &textCallback);
-    hostnameText = ESPUI.addControl(ControlType::Text, "Hostname", hostname, ControlColor::Carrot, settingsTab, &textCallback);
-    configSaveButton = ESPUI.addControl(ControlType::Button, "Save Configuration", "Save & Reboot", ControlColor::Carrot, settingsTab, &configSaveButtonCallback);
-
-    //Start ESPUi
-    int hostname_len = hostname.length() + 1;
-    hostname.toCharArray(hostname_array,hostname_len);
-    ESPUI.begin(hostname_array);
 
     //Load Cell Setup
     LoadCell.begin();
@@ -217,9 +175,14 @@ void setup() {
 
 void loop() {
     ArduinoOTA.handle();
-    if(WiFi.getMode() == WIFI_AP) {
-        dnsServer.processNextRequest();
+    MDNS.update();
+    ws2812fx.service();
+
+    if (!client.connected()) {
+        reconnect();
     }
+    client.loop();
+
     unsigned long currentMillis = millis();
 
     //LED Handling
@@ -236,7 +199,6 @@ void loop() {
         dataSlowdownValue++;
         if(dataSlowdownValue >= 10) {
             dataSlowdownValue = 0;
-            ESPUI.print(valueLabel, String(weight));
         }
     }
 
@@ -251,6 +213,5 @@ void loop() {
         voltageIndex = (voltageIndex+1) % VOLTAGE_WINDOW_SIZE;   // Increment the index, and wrap to 0 if it exceeds the window size
         voltageAvarage = voltageSum / VOLTAGE_WINDOW_SIZE;      // Divide the sum of the window by the window size for the result
 
-        ESPUI.print(voltageLabel, String(voltageAvarage, 2));
     }
 }
