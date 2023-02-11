@@ -115,7 +115,9 @@ void setup() {
     wifiManager.addParameter(&custom_mqtt_port);
     wifiManager.addParameter(&custom_api_token);
 
-
+    Serial.print("Hostname: ");
+    Serial.println(hostname);
+    
     bool result;
     result = wifiManager.autoConnect(hostname);
     if(!result) {
@@ -146,6 +148,7 @@ void setup() {
     }
 
     preferences.end();
+
     MDNS.begin(hostname);
     ArduinoOTA.begin();
 
