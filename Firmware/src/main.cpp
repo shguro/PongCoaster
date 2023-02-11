@@ -145,6 +145,7 @@ void setup() {
         preferences.putString("api_token", api_token);
     }
 
+    preferences.end();
     MDNS.begin(hostname);
     ArduinoOTA.begin();
 
