@@ -14,7 +14,7 @@ Preferences preferences;
 bool shouldSaveConfig = false;
 char hostname[32] = "PONGCOASTER";
 char mqtt_server[40];
-char mqtt_port[6] = "8080";
+char mqtt_port[6] = "1883";
 char api_token[34] = "YOUR_API_TOKEN";
 
 //WifiManager
@@ -40,8 +40,6 @@ float calibration_factor = 1090;       //Assuming a calibration_factor
 float weight;
 double tareValue;
 volatile boolean newDataReady;
-int dataSlowdown = 0;
-int dataSlowdownValue = 1;
 
 //Voltage
 #define VOLTAGE_WINDOW_SIZE 10
@@ -65,7 +63,7 @@ void saveConfigCallback () {
   shouldSaveConfig = true;
 }
 
-void callback(char* topic, byte* payload, unsigned int length) {
+void mqttCallback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Message arrived [");
   Serial.print(topic);
   Serial.print("] ");
@@ -103,6 +101,9 @@ void setup() {
     Serial.begin(57600);
     preferences.begin("PongCoaster", false);
     preferences.getString("hostname", "PONGCOASTER").toCharArray(hostname, 32);
+    preferences.getString("mqtt_server", "").toCharArray(mqtt_server, 40);
+    preferences.getString("mqtt_port", "1883").toCharArray(mqtt_port, 6);
+    preferences.getString("api_token", "YOUR_API_TOKEN").toCharArray(api_token, 34);
 
     WiFiManagerParameter custom_mqtt_server("server", "mqtt server", mqtt_server, 40);
     WiFiManagerParameter custom_mqtt_port("port", "mqtt port", mqtt_port, 6);
@@ -175,12 +176,14 @@ void setup() {
         Serial.println("Startup is complete");
     }
     attachInterrupt(digitalPinToInterrupt(HX711_dout), dataReadyISR, FALLING);
+
+    client.setServer(mqtt_server, atoi(mqtt_port));
+    client.setCallback(mqttCallback);
 }
 
 void loop() {
     ArduinoOTA.handle();
     MDNS.update();
-    ws2812fx.service();
 
     if (!client.connected()) {
         reconnect();
@@ -200,10 +203,9 @@ void loop() {
     if (newDataReady) {
         weight = LoadCell.getData();      // get smoothed value from the dataset:
         newDataReady = 0;
-        dataSlowdownValue++;
-        if(dataSlowdownValue >= 10) {
-            dataSlowdownValue = 0;
-        }
+        char weightString[50];
+        sprintf(weightString, "%f", weight);
+        client.publish("weight", weightString);
     }
 
 
@@ -216,6 +218,8 @@ void loop() {
         voltageSum = voltageSum + voltageValue;                 // Add the newest reading to the sum
         voltageIndex = (voltageIndex+1) % VOLTAGE_WINDOW_SIZE;   // Increment the index, and wrap to 0 if it exceeds the window size
         voltageAvarage = voltageSum / VOLTAGE_WINDOW_SIZE;      // Divide the sum of the window by the window size for the result
-
+        char voltageString[50];
+        sprintf(voltageString, "%f", voltageAvarage);
+        client.publish("voltage", voltageString);
     }
 }
