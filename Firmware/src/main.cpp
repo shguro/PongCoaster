@@ -110,11 +110,13 @@ void setup() {
     WiFiManagerParameter custom_api_token("apikey", "API token", api_token, 32);
     WiFiManagerParameter custom_hostname("hostname", "Hostname", hostname, 32);
 
+    wifiManager.setSaveConfigCallback(saveConfigCallback);
 
     //add all your parameters here
     wifiManager.addParameter(&custom_mqtt_server);
     wifiManager.addParameter(&custom_mqtt_port);
     wifiManager.addParameter(&custom_api_token);
+
 
     Serial.print("Hostname: ");
     Serial.println(hostname);
