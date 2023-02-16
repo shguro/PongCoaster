@@ -23,6 +23,8 @@ WiFiManager wifiManager;
 //MQTT
 WiFiClient espClient;
 PubSubClient client(espClient);
+char weightTopic[50] = "weight/";
+char voltageTopic[50] = "voltage/";
 
 //LED
 #define LED_COUNT 18
@@ -117,7 +119,6 @@ void setup() {
     wifiManager.addParameter(&custom_mqtt_port);
     wifiManager.addParameter(&custom_api_token);
 
-
     Serial.print("Hostname: ");
     Serial.println(hostname);
     
@@ -181,6 +182,10 @@ void setup() {
 
     client.setServer(mqtt_server, atoi(mqtt_port));
     client.setCallback(mqttCallback);
+
+    strcat(weightTopic, hostname);
+    strcat(voltageTopic, hostname);
+
 }
 
 void loop() {
@@ -207,7 +212,9 @@ void loop() {
         newDataReady = 0;
         char weightString[50];
         sprintf(weightString, "%f", weight);
-        client.publish("weight", weightString);
+                Serial.println(weight);
+
+        client.publish(weightTopic, weightString);
     }
 
 
@@ -222,6 +229,6 @@ void loop() {
         voltageAvarage = voltageSum / VOLTAGE_WINDOW_SIZE;      // Divide the sum of the window by the window size for the result
         char voltageString[50];
         sprintf(voltageString, "%f", voltageAvarage);
-        client.publish("voltage", voltageString);
+        client.publish(voltageTopic, voltageString);
     }
 }
