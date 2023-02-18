@@ -23,8 +23,13 @@ WiFiManager wifiManager;
 //MQTT
 WiFiClient espClient;
 PubSubClient client(espClient);
+
+//MQTT Topics
 char weightTopic[50] = "weight/";
 char voltageTopic[50] = "voltage/";
+char tareTopic[50] = "tare/";
+char connectedTopic[50] = "connected/";
+
 
 //LED
 #define LED_COUNT 18
@@ -66,13 +71,10 @@ void saveConfigCallback () {
 }
 
 void mqttCallback(char* topic, byte* payload, unsigned int length) {
-  Serial.print("Message arrived [");
-  Serial.print(topic);
-  Serial.print("] ");
-  for (int i = 0; i < length; i++) {
-    Serial.print((char)payload[i]);
+  if (strcmp(weightTopic, topic) == 0) {
+    LoadCell.tare();
+    Serial.println("tare");
   }
-  Serial.println();
 }
 
 void reconnect() {
@@ -85,10 +87,8 @@ void reconnect() {
     // Attempt to connect
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
-      // Once connected, publish an announcement...
-      client.publish("outTopic", "hello world");
-      // ... and resubscribe
-      client.subscribe("inTopic");
+      client.publish(connectedTopic, hostname);
+      client.subscribe("sensor/room1/temperature");  // subscribe to this topic
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -183,8 +183,11 @@ void setup() {
     client.setServer(mqtt_server, atoi(mqtt_port));
     client.setCallback(mqttCallback);
 
+    //create topic strings
     strcat(weightTopic, hostname);
     strcat(voltageTopic, hostname);
+    strcat(tareTopic, hostname);
+    strcat(connectedTopic, hostname);
 }
 
 void loop() {
