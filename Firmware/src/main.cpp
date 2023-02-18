@@ -185,50 +185,55 @@ void setup() {
 
     strcat(weightTopic, hostname);
     strcat(voltageTopic, hostname);
-
 }
 
 void loop() {
-    ArduinoOTA.handle();
-    MDNS.update();
+  ArduinoOTA.handle();
+  MDNS.update();
 
-    if (!client.connected()) {
-        reconnect();
+  if (!client.connected()) {
+      reconnect();
+  }
+  client.loop();
+
+  unsigned long currentMillis = millis();
+
+  // Reset Wifi Settings over Serial Interface
+  if (Serial.available()) {
+    String input = Serial.readStringUntil('\n');
+    if (input == "reset") {
+      wifiManager.resetSettings();
     }
-    client.loop();
+  }
 
-    unsigned long currentMillis = millis();
+  //LED Handling
+  if(currentMillis - previousMillisLed >= 1000/20) { //60fps
+      previousMillisLed = currentMillis;
+      ws2812fx.service();
+  }
 
-    //LED Handling
-    if(currentMillis - previousMillisLed >= 1000/20) { //60fps
-        previousMillisLed = currentMillis;
-        ws2812fx.service();
-    }
-
-    //Read Load Cell
-    // get smoothed value from the dataset:
-    if (newDataReady) {
-        weight = LoadCell.getData();      // get smoothed value from the dataset:
-        newDataReady = 0;
-        char weightString[50];
-        sprintf(weightString, "%f", weight);
-                Serial.println(weight);
-
-        client.publish(weightTopic, weightString);
-    }
+  //Read Load Cell
+  // get smoothed value from the dataset:
+  if (newDataReady) {
+      weight = LoadCell.getData();      // get smoothed value from the dataset:
+      newDataReady = 0;
+      char weightString[50];
+      sprintf(weightString, "%f", weight);
+      client.publish(weightTopic, weightString);
+  }
 
 
-    //Read Voltage
-    if(currentMillis - previousMillisVoltage >= 2000) {
-        previousMillisVoltage = currentMillis;
-        voltageSum = voltageSum - voltageReadings[voltageIndex];       // Remove the oldest entry from the sum
-        voltageValue = (analogRead(A0)/1023.0)*4.5;        // Read the next sensor value
-        voltageReadings[voltageIndex] = voltageValue;           // Add the newest reading to the window
-        voltageSum = voltageSum + voltageValue;                 // Add the newest reading to the sum
-        voltageIndex = (voltageIndex+1) % VOLTAGE_WINDOW_SIZE;   // Increment the index, and wrap to 0 if it exceeds the window size
-        voltageAvarage = voltageSum / VOLTAGE_WINDOW_SIZE;      // Divide the sum of the window by the window size for the result
-        char voltageString[50];
-        sprintf(voltageString, "%f", voltageAvarage);
-        client.publish(voltageTopic, voltageString);
-    }
+  //Read Voltage
+  if(currentMillis - previousMillisVoltage >= 2000) {
+      previousMillisVoltage = currentMillis;
+      voltageSum = voltageSum - voltageReadings[voltageIndex];       // Remove the oldest entry from the sum
+      voltageValue = (analogRead(A0)/1023.0)*4.5;        // Read the next sensor value
+      voltageReadings[voltageIndex] = voltageValue;           // Add the newest reading to the window
+      voltageSum = voltageSum + voltageValue;                 // Add the newest reading to the sum
+      voltageIndex = (voltageIndex+1) % VOLTAGE_WINDOW_SIZE;   // Increment the index, and wrap to 0 if it exceeds the window size
+      voltageAvarage = voltageSum / VOLTAGE_WINDOW_SIZE;      // Divide the sum of the window by the window size for the result
+      char voltageString[50];
+      sprintf(voltageString, "%f", voltageAvarage);
+      client.publish(voltageTopic, voltageString);
+  }
 }
