@@ -29,7 +29,6 @@ char weightTopic[50] = "weight/";
 char voltageTopic[50] = "voltage/";
 char tareTopic[50] = "tare/";
 char connectedTopic[50] = "connected/";
-const char* connectedTopicPtr;
 
 //LED
 #define LED_COUNT 18
@@ -72,7 +71,7 @@ void saveConfigCallback () {
 
 void mqttCallback(char* topic, byte* payload, unsigned int length) {
   Serial.println(topic);
-  if (strcmp(weightTopic, topic) == 0) {
+  if (strcmp(tareTopic, topic) == 0) {
     LoadCell.tareNoDelay();
     Serial.println("tare");
   }
