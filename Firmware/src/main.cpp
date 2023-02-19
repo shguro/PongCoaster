@@ -29,7 +29,7 @@ char weightTopic[50] = "weight/";
 char voltageTopic[50] = "voltage/";
 char tareTopic[50] = "tare/";
 char connectedTopic[50] = "connected/";
-
+const char* connectedTopicPtr;
 
 //LED
 #define LED_COUNT 18
@@ -71,6 +71,7 @@ void saveConfigCallback () {
 }
 
 void mqttCallback(char* topic, byte* payload, unsigned int length) {
+  Serial.println(topic);
   if (strcmp(weightTopic, topic) == 0) {
     LoadCell.tareNoDelay();
     Serial.println("tare");
@@ -82,13 +83,12 @@ void reconnect() {
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
     // Create a random client ID
-    String clientId = "ESP8266Client-";
-    clientId += String(random(0xffff), HEX);
+
     // Attempt to connect
-    if (client.connect(clientId.c_str())) {
+    if (client.connect(hostname)) {
       Serial.println("connected");
       client.publish(connectedTopic, hostname);
-      client.subscribe(tareTopic);  // subscribe to this topic
+      client.subscribe("tare/#");  // subscribe to this topic
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
