@@ -72,7 +72,7 @@ void saveConfigCallback () {
 
 void mqttCallback(char* topic, byte* payload, unsigned int length) {
   if (strcmp(weightTopic, topic) == 0) {
-    LoadCell.tare();
+    LoadCell.tareNoDelay();
     Serial.println("tare");
   }
 }
@@ -88,7 +88,7 @@ void reconnect() {
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
       client.publish(connectedTopic, hostname);
-      client.subscribe("sensor/room1/temperature");  // subscribe to this topic
+      client.subscribe(tareTopic);  // subscribe to this topic
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
