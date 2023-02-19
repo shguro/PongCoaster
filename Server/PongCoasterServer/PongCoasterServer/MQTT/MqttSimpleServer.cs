@@ -1,7 +1,7 @@
 ﻿using MQTTnet;
 using MQTTnet.Server;
 
-namespace PongCoasterMqtt;
+namespace PongCoasterServer.MQTT;
 
 public class MqttSimpleServer
 {
@@ -19,12 +19,18 @@ public class MqttSimpleServer
     {
         var optionsBuilder = new MqttServerOptionsBuilder()
             .WithDefaultEndpoint();
-
+        
         await _mqttServer.StartAsync();
     }
 
     public async Task StopAsync()
     {
         await _mqttServer.StopAsync();
+    }
+    
+    public event Func<ClientDisconnectedEventArgs, Task> ClientDisconnected
+    {
+        add { _mqttServer.ClientDisconnectedAsync += value; }
+        remove { _mqttServer.ClientDisconnectedAsync -= value; }
     }
 }

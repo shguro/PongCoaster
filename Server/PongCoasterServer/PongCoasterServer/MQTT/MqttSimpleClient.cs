@@ -1,7 +1,7 @@
 ﻿using MQTTnet;
 using MQTTnet.Client;
 
-namespace PongCoasterMqtt;
+namespace PongCoasterServer.MQTT;
 
 public class MqttSimpleClient
 {
