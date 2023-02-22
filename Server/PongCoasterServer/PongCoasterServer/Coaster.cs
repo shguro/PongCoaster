@@ -11,8 +11,9 @@ public class Coaster : Disposable
 {
     public string? Hostname { get; set; }
     public Color? Color { get; set; }
-    public double LastWeight { get; set; }
-    public double LastVoltage { get; set; }
+    public double? LastWeight { get; set; }
+    public double? LastVoltage { get; set; }
+    public string? UserName { get; set; }
     
     private MqttSimpleClient? Client { get; set; }
 
