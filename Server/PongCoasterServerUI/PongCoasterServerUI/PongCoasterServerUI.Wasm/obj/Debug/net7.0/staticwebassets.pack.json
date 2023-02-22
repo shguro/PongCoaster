@@ -1,0 +1,1189 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\AppManifest.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\AppManifest.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\Assets\\SplashScreen.png",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\Assets\\SplashScreen.png"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\Fonts.css",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\Fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\PongCoasterServerUI.Wasm.exe",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\PongCoasterServerUI.Wasm.exe"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\Uno.Fonts.Fluent\\Fonts\\uno-fluentui-assets.ttf",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\Uno.Fonts.Fluent\\Fonts\\uno-fluentui-assets.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\Uno.UI.css",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\Uno.UI.css"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\Uno.UI.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\Uno.UI.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\WasmWebSockets.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\WasmWebSockets.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\corebindings.c",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\corebindings.c"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet-legacy.d.ts",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet-legacy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.d.ts",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.js.symbols",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.js.symbols"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.timezones.blat",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.timezones.blat"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.wasm",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\dotnet.wasm"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\driver.c",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\driver.c"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-compile.rsp",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-compile.rsp"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-default.rsp",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-default.rsp"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-link.rsp",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-link.rsp"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-props.json",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\emcc-props.json"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\gc-common.h",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\gc-common.h"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt.dat",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt.dat"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt_CJK.dat",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt_CJK.dat"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt_EFIGS.dat",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt_EFIGS.dat"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt_no_CJK.dat",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\icudt_no_CJK.dat"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\jquery-pep.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\jquery-pep.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\lottie.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\lottie.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\CommonServiceLocator.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\CommonServiceLocator.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.DependencyInjection.Abstractions.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.DependencyInjection.Abstractions.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.DependencyInjection.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.DependencyInjection.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Logging.Abstractions.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Logging.Abstractions.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Logging.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Logging.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Options.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Options.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Extensions.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.IO.RecyclableMemoryStream.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.IO.RecyclableMemoryStream.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Win32.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Win32.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Win32.Primitives.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Microsoft.Win32.Primitives.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Newtonsoft.Json.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Newtonsoft.Json.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.Wasm.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.Wasm.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.Wasm.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.Wasm.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\PongCoasterServerUI.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Concurrent.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Concurrent.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Concurrent.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Concurrent.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Immutable.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Immutable.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Immutable.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Immutable.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.NonGeneric.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.NonGeneric.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.NonGeneric.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.NonGeneric.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Specialized.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Specialized.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Specialized.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.Specialized.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Collections.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.EventBasedAsync.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.EventBasedAsync.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.EventBasedAsync.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.EventBasedAsync.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.Primitives.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.Primitives.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.TypeConverter.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.TypeConverter.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.TypeConverter.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.TypeConverter.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ComponentModel.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Console.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Console.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Console.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Console.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Data.Common.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Data.Common.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Data.Common.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Data.Common.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Contracts.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Contracts.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Contracts.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Contracts.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Debug.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Debug.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Debug.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Debug.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.DiagnosticSource.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.DiagnosticSource.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.DiagnosticSource.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.DiagnosticSource.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.FileVersionInfo.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.FileVersionInfo.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.FileVersionInfo.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.FileVersionInfo.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Process.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Process.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Process.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Process.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.StackTrace.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.StackTrace.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.StackTrace.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.StackTrace.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TextWriterTraceListener.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TextWriterTraceListener.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TextWriterTraceListener.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TextWriterTraceListener.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TraceSource.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TraceSource.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TraceSource.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.TraceSource.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Tracing.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Tracing.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Tracing.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Diagnostics.Tracing.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Drawing.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Drawing.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Drawing.Primitives.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Drawing.Primitives.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Formats.Asn1.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Formats.Asn1.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Formats.Asn1.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Formats.Asn1.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.Brotli.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.Brotli.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.Brotli.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.Brotli.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.ZipFile.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.ZipFile.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.ZipFile.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.ZipFile.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Compression.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.DriveInfo.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.DriveInfo.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.DriveInfo.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.DriveInfo.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.Watcher.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.Watcher.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.Watcher.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.FileSystem.Watcher.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.IsolatedStorage.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.IsolatedStorage.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.IsolatedStorage.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.IsolatedStorage.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.MemoryMappedFiles.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.MemoryMappedFiles.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.MemoryMappedFiles.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.MemoryMappedFiles.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Pipes.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Pipes.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Pipes.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.IO.Pipes.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Expressions.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Expressions.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Expressions.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Expressions.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Parallel.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Parallel.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Parallel.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Parallel.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Queryable.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Queryable.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Queryable.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.Queryable.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Linq.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Memory.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Memory.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Memory.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Memory.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Http.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Http.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Http.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Http.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.HttpListener.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.HttpListener.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.HttpListener.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.HttpListener.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Mail.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Mail.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Mail.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Mail.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NameResolution.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NameResolution.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NameResolution.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NameResolution.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NetworkInformation.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NetworkInformation.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NetworkInformation.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.NetworkInformation.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Ping.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Ping.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Ping.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Ping.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Primitives.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Primitives.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Requests.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Requests.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Requests.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Requests.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Security.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Security.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Security.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Security.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.ServicePoint.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.ServicePoint.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.ServicePoint.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.ServicePoint.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Sockets.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Sockets.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Sockets.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.Sockets.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebClient.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebClient.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebClient.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebClient.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebHeaderCollection.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebHeaderCollection.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebHeaderCollection.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebHeaderCollection.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebProxy.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebProxy.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebProxy.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebProxy.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.Client.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.Client.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.Client.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.Client.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Net.WebSockets.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Numerics.Vectors.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Numerics.Vectors.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Numerics.Vectors.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Numerics.Vectors.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ObjectModel.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ObjectModel.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ObjectModel.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.ObjectModel.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.CoreLib.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.CoreLib.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.CoreLib.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.CoreLib.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.DataContractSerialization.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.DataContractSerialization.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.DataContractSerialization.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.DataContractSerialization.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Uri.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Uri.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Uri.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Uri.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.Linq.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.Linq.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.Linq.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.Linq.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Private.Xml.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.DispatchProxy.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.DispatchProxy.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.DispatchProxy.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.DispatchProxy.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.ILGeneration.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.ILGeneration.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.ILGeneration.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.ILGeneration.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.Lightweight.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.Lightweight.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.Lightweight.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.Lightweight.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Emit.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Metadata.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Metadata.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Metadata.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Metadata.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Primitives.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Reflection.Primitives.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Resources.Writer.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Resources.Writer.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Resources.Writer.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Resources.Writer.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.Unsafe.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.Unsafe.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.Unsafe.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.Unsafe.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.VisualC.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.VisualC.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.VisualC.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.CompilerServices.VisualC.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Extensions.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Extensions.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Extensions.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Extensions.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.JavaScript.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.JavaScript.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.JavaScript.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.JavaScript.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.InteropServices.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Intrinsics.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Intrinsics.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Intrinsics.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Intrinsics.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Loader.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Loader.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Loader.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Loader.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Numerics.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Numerics.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Numerics.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Numerics.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Formatters.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Formatters.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Formatters.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Formatters.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Json.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Json.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Json.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Json.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Primitives.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Primitives.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Primitives.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Primitives.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Xml.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Xml.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Xml.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.Serialization.Xml.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Runtime.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Claims.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Claims.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Claims.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Claims.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Cryptography.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Cryptography.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Cryptography.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Security.Cryptography.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encoding.Extensions.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encoding.Extensions.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encoding.Extensions.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encoding.Extensions.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encodings.Web.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encodings.Web.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encodings.Web.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Encodings.Web.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Json.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Json.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Json.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.Json.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.RegularExpressions.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.RegularExpressions.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.RegularExpressions.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Text.RegularExpressions.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Overlapped.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Overlapped.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Overlapped.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Overlapped.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Tasks.Parallel.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Tasks.Parallel.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Tasks.Parallel.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Tasks.Parallel.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Thread.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Thread.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Thread.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.Thread.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.ThreadPool.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.ThreadPool.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.ThreadPool.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.ThreadPool.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Threading.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Transactions.Local.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Transactions.Local.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Transactions.Local.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Transactions.Local.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Web.HttpUtility.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Web.HttpUtility.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Web.HttpUtility.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Web.HttpUtility.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.ReaderWriter.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.ReaderWriter.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.ReaderWriter.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.ReaderWriter.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XDocument.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XDocument.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XDocument.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XDocument.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.XDocument.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.XDocument.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.XDocument.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.XDocument.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XPath.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XmlSerializer.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XmlSerializer.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XmlSerializer.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\System.Xml.XmlSerializer.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Core.Extensions.Logging.Singleton.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Core.Extensions.Logging.Singleton.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Core.Extensions.Logging.Singleton.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Core.Extensions.Logging.Singleton.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Diagnostics.Eventing.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Diagnostics.Eventing.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Diagnostics.Eventing.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Diagnostics.Eventing.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Extensions.Logging.WebAssembly.Console.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Extensions.Logging.WebAssembly.Console.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Logging.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Logging.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Logging.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Logging.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Runtime.WebAssembly.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Runtime.WebAssembly.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Runtime.WebAssembly.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.Runtime.WebAssembly.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Foundation.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Adapter.Microsoft.Extensions.Logging.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Adapter.Microsoft.Extensions.Logging.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Adapter.Microsoft.Extensions.Logging.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Adapter.Microsoft.Extensions.Logging.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Composition.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Composition.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Composition.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Composition.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Dispatching.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Dispatching.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Dispatching.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Dispatching.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.FluentTheme.v2.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.FluentTheme.v2.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.FluentTheme.v2.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.FluentTheme.v2.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Lottie.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Lottie.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Lottie.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Lottie.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.RemoteControl.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.RemoteControl.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.RemoteControl.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.RemoteControl.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Runtime.WebAssembly.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Runtime.WebAssembly.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Runtime.WebAssembly.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Runtime.WebAssembly.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Toolkit.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Toolkit.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Toolkit.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.Toolkit.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.UI.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.MetadataUpdater.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.MetadataUpdater.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.MetadataUpdater.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.MetadataUpdater.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.TimezoneData.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.TimezoneData.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.TimezoneData.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Wasm.TimezoneData.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Xaml.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Xaml.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Xaml.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.Xaml.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\Uno.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\netstandard.clr",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\netstandard.clr"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\netstandard.pdb",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\managed\\netstandard.pdb"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\mono-config.json",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\mono-config.json"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\normalize.css",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\obj\\uno-bootstrap.d.ts",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\obj\\uno-bootstrap.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\obj\\uno-bootstrap.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\obj\\uno-bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\package.json",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\pal_random.lib.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\pal_random.lib.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\pinvoke.c",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\pinvoke.c"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\pinvoke.h",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\pinvoke.h"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\require.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\require.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\runtime.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\setImmediate.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\setImmediate.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-assets.txt",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-assets.txt"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-bootstrap.css",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-bootstrap.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-config.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-config.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-lottie.js",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\uno-lottie.js"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\package_394a918dfe7b8209b67287edfb60422b50126049\\wasm-config.h",
+      "PackagePath": "staticwebassets\\package_394a918dfe7b8209b67287edfb60422b50126049\\wasm-config.h"
+    },
+    {
+      "Id": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterServerUI\\PongCoasterServerUI\\PongCoasterServerUI.Wasm\\bin\\Debug\\net7.0\\dist\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PongCoasterServerUI.Wasm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PongCoasterServerUI.Wasm.props",
+      "PackagePath": "build\\PongCoasterServerUI.Wasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PongCoasterServerUI.Wasm.props",
+      "PackagePath": "buildMultiTargeting\\PongCoasterServerUI.Wasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PongCoasterServerUI.Wasm.props",
+      "PackagePath": "buildTransitive\\PongCoasterServerUI.Wasm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
