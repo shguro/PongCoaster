@@ -1,7 +1,0 @@
-{
-  "profiles": {
-    "PongCoasterServerUI.Windows": {
-      "commandName": "MsixPackage"
-    }
-  }
-}

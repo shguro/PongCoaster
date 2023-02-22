@@ -1,1 +1,0 @@
-C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterServerUI\PongCoasterServerUI\PongCoasterServerUI.Windows\PongCoasterServerUI.Windows.csproj;x86

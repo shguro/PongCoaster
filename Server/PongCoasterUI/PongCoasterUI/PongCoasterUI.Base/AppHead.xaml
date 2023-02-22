@@ -1,0 +1,21 @@
+﻿<local:App
+	x:Class="PongCoasterUI.AppHead"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PongCoasterUI">
+	
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+
+				<ResourceDictionary Source="ms-appx:///PongCoasterUI/AppResources.xaml" />
+				
+                <!-- Include additional resource dictionaries here, or in PongCoasterUI/AppResources.xaml -->				
+			</ResourceDictionary.MergedDictionaries>
+			
+			<!-- Include additional resources here, or in PongCoasterUI/AppResources.xaml -->
+        </ResourceDictionary>
+    </Application.Resources>
+
+</local:App>
