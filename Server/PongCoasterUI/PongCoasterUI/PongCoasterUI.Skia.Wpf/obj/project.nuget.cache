@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uWpYx/bdJ1T/Bh+eyiBtOJ8TVgMrEuQX5RyRtnEDJKXNu6DYdsVxRDC8k9EhVyICe6JKGVSrBYIjLNG2bFzbYw==",
+  "dgSpecHash": "/q7iSpqdG0wLTZT32QDjEnCo62go5m+POFYdxG4Pu9hX/euunHxr71qRW9ruJCtGdG0ni7qLCKUA9ns22I5ZEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Wpf\\PongCoasterUI.Skia.Wpf.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,8 @@
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0-rc.1.22426.10\\microsoft.win32.systemevents.7.0.0-rc.1.22426.10.nupkg.sha512",
+    "C:\\Users\\shguro\\.nuget\\packages\\mqttnet\\4.1.4.563\\mqttnet.4.1.4.563.nupkg.sha512",
+    "C:\\Users\\shguro\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.1.4.563\\mqttnet.extensions.managedclient.4.1.4.563.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.3\\skiasharp.harfbuzz.2.88.3.nupkg.sha512",

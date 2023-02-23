@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tAOQcofZlHlHZ3/Ha1MpRPN3+53Pxgxbt0d3VsGTHdPuwcd15o9smAjaB0YJd5sLY6X019aXEKRdk2ODjz6JGA==",
+  "dgSpecHash": "+hK1CpWBojwyAkODBSRJ6rXhROtzgvPPcOXEKqBJ2Wg445lsqjhIJVk71JxwYHWAE3e2JdgbFIMoaBUbHYPKFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Mobile\\PongCoasterUI.Mobile.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,8 @@
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\5.0.0\\microsoft.extensions.options.configurationextensions.5.0.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.2.0\\microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512",
+    "C:\\Users\\shguro\\.nuget\\packages\\mqttnet\\4.1.4.563\\mqttnet.4.1.4.563.nupkg.sha512",
+    "C:\\Users\\shguro\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.1.4.563\\mqttnet.extensions.managedclient.4.1.4.563.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\skiasharp\\2.88.1-preview.79\\skiasharp.2.88.1-preview.79.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\skiasharp.nativeassets.android\\2.88.1-preview.79\\skiasharp.nativeassets.android.2.88.1-preview.79.nupkg.sha512",

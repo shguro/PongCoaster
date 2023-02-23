@@ -234,6 +234,35 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -606,6 +635,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0/win10-arm": {
@@ -839,6 +882,35 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -1351,6 +1423,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -1587,6 +1673,35 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
         "compile": {
@@ -2098,6 +2213,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -2334,6 +2463,35 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
         "compile": {
@@ -2845,6 +3003,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -3081,6 +3253,35 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3591,6 +3792,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -3827,6 +4042,35 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
         "compile": {
@@ -4339,6 +4583,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0/win10-x86": {
@@ -4572,6 +4830,35 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -5085,6 +5372,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0/win10-x86-aot": {
@@ -5318,6 +5619,35 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -5831,6 +6161,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -6068,6 +6412,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -7117,6 +7490,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -7354,6 +7741,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -8403,6 +8819,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -8640,6 +9070,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -9689,6 +10148,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -9926,6 +10399,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -10975,6 +11477,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -11212,6 +11728,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -12261,6 +12806,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -12498,6 +13057,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -13547,6 +14135,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -13784,6 +14386,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -14833,6 +15464,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -15070,6 +15715,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -16120,6 +16794,20 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ViewPager.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0-ios16.1": {
@@ -16337,6 +17025,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -16488,6 +17205,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -16706,6 +17437,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -16857,6 +17617,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -17075,6 +17849,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -17226,6 +18029,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -17444,6 +18261,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -17595,6 +18441,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -17813,6 +18673,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -17964,6 +18853,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -18182,6 +19085,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -18333,6 +19265,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -18551,6 +19497,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -18702,6 +19677,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -18920,6 +19909,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -19071,6 +20089,20 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -19289,6 +20321,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -19440,6 +20501,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -19658,6 +20733,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -19809,6 +20913,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -20027,6 +21145,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -20178,6 +21325,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -20396,6 +21557,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -20547,6 +21737,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -20765,6 +21969,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -20916,6 +22149,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -21134,6 +22381,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -21285,6 +22561,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -21503,6 +22793,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -21654,6 +22973,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -21872,6 +23205,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Uno.Core.Extensions.Logging.Singleton/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -22023,6 +23385,20 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -22344,6 +23720,35 @@
           }
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -22716,6 +24121,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.18362/win10-arm": {
@@ -23020,6 +24439,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -23533,6 +24981,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.18362/win10-arm-aot": {
@@ -23837,6 +25299,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -24350,6 +25841,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -24660,6 +26165,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
         "compile": {
@@ -25171,6 +26705,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -25481,6 +27029,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -25991,6 +27568,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     },
@@ -26301,6 +27892,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
         "compile": {
@@ -26813,6 +28433,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.18362/win10-x86": {
@@ -27120,6 +28754,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -27633,6 +29296,20 @@
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.18362/win10-x86-aot": {
@@ -27940,6 +29617,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MQTTnet/4.1.4.563": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -28453,6 +30159,20 @@
         },
         "build": {
           "buildTransitive/net7.0/uno.winui.targets": {}
+        }
+      },
+      "PongCoasterServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MQTTnet": "4.1.4.563",
+          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
+        },
+        "compile": {
+          "bin/placeholder/PongCoasterServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PongCoasterServer.dll": {}
         }
       }
     }
@@ -29533,6 +31253,68 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "MQTTnet/4.1.4.563": {
+      "sha512": "gO9segUcKyQJcjV7w7OOdoAIkec7cUN65vEhYutbdWcj4rbtz/oL/RDvQVVbameXc6ChkjKx7/HbO+R8ejAUZQ==",
+      "type": "package",
+      "path": "mqttnet/4.1.4.563",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MQTTnet.dll",
+        "lib/net452/MQTTnet.xml",
+        "lib/net461/MQTTnet.dll",
+        "lib/net461/MQTTnet.xml",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.xml",
+        "lib/net6.0/MQTTnet.dll",
+        "lib/net6.0/MQTTnet.xml",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.xml",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.xml",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.xml",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.xml",
+        "lib/uap10.0.10240/MQTTnet.dll",
+        "lib/uap10.0.10240/MQTTnet.pri",
+        "lib/uap10.0.10240/MQTTnet.xml",
+        "mqttnet.4.1.4.563.nupkg.sha512",
+        "mqttnet.nuspec",
+        "nuget.png"
+      ]
+    },
+    "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
+      "sha512": "QgrSDz12YnVUdbV5Wu1tP9sgTRUJbN4jZUsHC2Bh93tAPf+6vPaeq2WAEPoyJ7MjCadyGSW0n4QFyCjgNG8Odg==",
+      "type": "package",
+      "path": "mqttnet.extensions.managedclient/4.1.4.563",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net452/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net461/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net461/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net5.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net5.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net6.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netcoreapp3.1/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netcoreapp3.1/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netstandard1.3/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netstandard1.3/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netstandard2.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netstandard2.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netstandard2.1/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netstandard2.1/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.pri",
+        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.xml",
+        "mqttnet.extensions.managedclient.4.1.4.563.nupkg.sha512",
+        "mqttnet.extensions.managedclient.nuspec",
+        "nuget.png"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -33411,32 +35193,42 @@
         "xamarin.androidx.viewpager.1.0.0.10.nupkg.sha512",
         "xamarin.androidx.viewpager.nuspec"
       ]
+    },
+    "PongCoasterServer/1.0.0": {
+      "type": "project",
+      "path": "../PongCoasterServer/PongCoasterServer.csproj",
+      "msbuildProject": "../PongCoasterServer/PongCoasterServer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
+      "PongCoasterServer >= 1.0.0",
       "Uno.Core.Extensions.Logging.Singleton >= 4.0.1",
       "Uno.WinUI >= 4.7.37"
     ],
     "net7.0-android33.0": [
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
+      "PongCoasterServer >= 1.0.0",
       "Uno.Core.Extensions.Logging.Singleton >= 4.0.1",
       "Uno.WinUI >= 4.7.37"
     ],
     "net7.0-ios16.1": [
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
+      "PongCoasterServer >= 1.0.0",
       "Uno.Core.Extensions.Logging.Singleton >= 4.0.1",
       "Uno.WinUI >= 4.7.37"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
+      "PongCoasterServer >= 1.0.0",
       "Uno.Core.Extensions.Logging.Singleton >= 4.0.1",
       "Uno.WinUI >= 4.7.37"
     ],
     "net7.0-windows10.0.18362": [
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
       "Microsoft.WindowsAppSDK >= 1.1.3",
+      "PongCoasterServer >= 1.0.0",
       "Uno.Core.Extensions.Logging.Singleton >= 4.0.1",
       "Uno.WinUI >= 4.7.37"
     ]
@@ -33480,23 +35272,43 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj": {
+              "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj"
+            }
+          }
         },
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj": {
+              "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj"
+            }
+          }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj": {
+              "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj"
+            }
+          }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj": {
+              "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj"
+            }
+          }
         },
         "net7.0-windows10.0.18362": {
           "targetAlias": "net7.0-windows10.0.18362",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj": {
+              "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterServer\\PongCoasterServer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
