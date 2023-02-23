@@ -1,5 +1,7 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel;
+using System.Drawing;
 using System.Globalization;
+using System.Runtime.CompilerServices;
 using MQTTnet;
 using MQTTnet.Client;
 using MQTTnet.Internal;
@@ -7,14 +9,79 @@ using PongCoasterServer.MQTT;
 
 namespace PongCoasterServer;
 
-public class Coaster : Disposable
+public class Coaster : Disposable, INotifyPropertyChanged
 {
-    public string? Hostname { get; set; }
-    public Color? Color { get; set; }
-    public double? LastWeight { get; set; }
-    public double? LastVoltage { get; set; }
-    public string? UserName { get; set; }
-    
+    private string? _hostname;
+    private Color? _color;
+    private double? _lastWeight;
+    private double? _lastVoltage;
+    private string? _userName;
+
+    public string? Hostname
+    {
+        get => _hostname;
+        set
+        {
+            if (_hostname != value)
+            {
+                _hostname = value;
+                OnPropertyChanged(nameof(Hostname));
+            }
+        }
+    }
+
+    public Color? Color
+    {
+        get => _color;
+        set
+        {
+            if (_color != value)
+            {
+                _color = value;
+                OnPropertyChanged(nameof(Color));
+            }
+        }
+    }
+
+    public double? LastWeight
+    {
+        get => _lastWeight;
+        set
+        {
+            if (_lastWeight != value)
+            {
+                _lastWeight = value;
+                OnPropertyChanged(nameof(LastWeight));
+            }
+        }
+    }
+
+    public double? LastVoltage
+    {
+        get => _lastVoltage;
+        set
+        {
+            if (_lastVoltage != value)
+            {
+                _lastVoltage = value;
+                OnPropertyChanged(nameof(LastVoltage));
+            }
+        }
+    }
+
+    public string? UserName
+    {
+        get => _userName;
+        set
+        {
+            if (_userName != value)
+            {
+                _userName = value;
+                OnPropertyChanged(nameof(UserName));
+            }
+        }
+    }
+
     private MqttSimpleClient? Client { get; set; }
 
     public Coaster(string hostname, MqttSimpleClient? client)
@@ -59,5 +126,20 @@ public class Coaster : Disposable
         }
 
         return Task.CompletedTask;
+    }
+
+    public event PropertyChangedEventHandler? PropertyChanged;
+
+    protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
+    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
+    {
+        if (EqualityComparer<T>.Default.Equals(field, value)) return false;
+        field = value;
+        OnPropertyChanged(propertyName);
+        return true;
     }
 }

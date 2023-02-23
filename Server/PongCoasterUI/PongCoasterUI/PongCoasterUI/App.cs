@@ -5,6 +5,11 @@ using Microsoft.UI.Xaml.Navigation;
 using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using PongCoasterServer;
+using PongCoasterServer.MQTT;
+using MQTTnet;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace PongCoasterUI
 {
@@ -13,6 +18,8 @@ namespace PongCoasterUI
     /// </summary>
     public partial class App : Application
     {
+        public List<Coaster> CoasterList { get; set; } = new List<Coaster>();
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -23,6 +30,7 @@ namespace PongCoasterUI
         /// </remarks>
         public App()
         {
+
         }
 
         /// <summary>
@@ -35,10 +43,12 @@ namespace PongCoasterUI
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="args">Details about the launch request and process.</param>
-        protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
+        protected override async void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
+
+            
 #if DEBUG
-		if (System.Diagnostics.Debugger.IsAttached)
+        if (System.Diagnostics.Debugger.IsAttached)
 		{
 			// this.DebugSettings.EnableFrameRateCounter = true;
 		}
@@ -82,7 +92,48 @@ namespace PongCoasterUI
                 }
                 // Ensure the current window is active
                 MainWindow.Activate();
+
+
             }
+
+            var server = new MqttSimpleServer();
+            await server.StartAsync();
+
+            var client = new MqttSimpleClient();
+            await client.ConnectAsync("localhost", 1883);
+            await client.SubscribeAsync("weight/#");
+            await client.SubscribeAsync("voltage/#");
+            await client.SubscribeAsync("connected/#");
+
+
+            //connected
+            client.MessageReceived += (sender) =>
+            {
+                var topic = sender.ApplicationMessage.Topic;
+                var payload = sender.ApplicationMessage.ConvertPayloadToString();
+
+                if (topic.Contains("connected/"))
+                {
+                    var hostname = topic.Replace("connected/", "");
+                    Console.WriteLine("Connected: " + hostname);
+                    if (CoasterList.Find(coster => coster.Hostname == hostname) != null) return Task.CompletedTask;
+                    var coster = new Coaster(hostname, client);
+                    CoasterList.Add(coster);
+                }
+
+                return Task.CompletedTask;
+            };
+
+            //dsconnected coaster
+            server.ClientDisconnected += (sender) =>
+            {
+                var hostname = sender.ClientId;
+                Console.WriteLine("Disconnected: " + hostname);
+                var coaster = CoasterList.Find(coster => coster.Hostname == hostname);
+                if (coaster != null) coaster.Dispose();
+                if (coaster != null) CoasterList.Remove(coaster);
+                return Task.CompletedTask;
+            };
         }
 
         /// <summary>
