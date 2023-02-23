@@ -194,32 +194,6 @@
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "dependencies": {
-            "Microsoft.Extensions.Logging.Console": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Uno.Extensions.Logging.OSLog": {
-              "target": "Package",
-              "version": "[1.4.0, )"
-            },
-            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            },
-            "Uno.WinUI": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            },
-            "Uno.WinUI.Lottie": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            },
-            "Uno.WinUI.RemoteControl": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -231,44 +205,10 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.iOS": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "dependencies": {
-            "Microsoft.Extensions.Logging.Console": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Uno.Extensions.Logging.OSLog": {
-              "target": "Package",
-              "version": "[1.4.0, )"
-            },
-            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            },
-            "Uno.WinUI": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            },
-            "Uno.WinUI.Lottie": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            },
-            "Uno.WinUI.RemoteControl": {
-              "target": "Package",
-              "version": "[4.7.37, )"
-            }
-          },
           "imports": [
             "xamarinios10",
             "net461",
@@ -281,14 +221,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.MacCatalyst": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       },

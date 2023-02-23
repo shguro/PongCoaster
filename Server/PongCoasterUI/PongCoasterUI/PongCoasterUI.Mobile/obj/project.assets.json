@@ -12062,19 +12062,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -12101,144 +12088,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        },
-        "runtimeTargets": {
-          "runtimes/ios/native/libSkiaSharp.framework/Info.plist": {
-            "assetType": "native",
-            "rid": "ios"
-          },
-          "runtimes/ios/native/libSkiaSharp.framework/Modules/module.modulemap": {
-            "assetType": "native",
-            "rid": "ios"
-          },
-          "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {
-            "assetType": "native",
-            "rid": "ios"
-          },
-          "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp": {
-            "assetType": "native",
-            "rid": "ios"
-          }
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -12270,19 +12119,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -12323,31 +12159,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -12430,46 +12242,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -12718,19 +12490,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -12757,126 +12516,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -12908,19 +12547,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -12961,31 +12587,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -13068,46 +12670,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -13356,19 +12918,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -13395,126 +12944,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -13546,19 +12975,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -13599,31 +13015,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -13706,46 +13098,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -13994,19 +13346,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -14033,126 +13372,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -14184,19 +13403,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -14237,31 +13443,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -14344,46 +13526,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -14632,19 +13774,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -14671,126 +13800,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -14822,19 +13831,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -14875,31 +13871,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -14982,46 +13954,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -15270,19 +14202,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -15309,132 +14228,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "native": {
-          "runtimes/ios/native/libSkiaSharp.framework/Info.plist": {},
-          "runtimes/ios/native/libSkiaSharp.framework/Modules/module.modulemap": {},
-          "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {},
-          "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -15466,19 +14259,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -15519,31 +14299,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -15626,46 +14382,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -15914,19 +14630,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -15953,132 +14656,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.iOS": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/_._": {}
-        },
-        "native": {
-          "runtimes/ios/native/libSkiaSharp.framework/Info.plist": {},
-          "runtimes/ios/native/libSkiaSharp.framework/Modules/module.modulemap": {},
-          "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {},
-          "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-ios13.6/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -16110,19 +14687,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -16163,31 +14727,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -16270,46 +14810,6 @@
         },
         "build": {
           "buildTransitive/net7.0-ios/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.ios": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -16558,19 +15058,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -16597,132 +15084,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        },
-        "runtimeTargets": {
-          "runtimes/maccatalyst/native/libSkiaSharp.framework.zip": {
-            "assetType": "native",
-            "rid": "maccatalyst"
-          }
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -16754,19 +15115,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -16807,31 +15155,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -16914,46 +15238,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -17202,19 +15486,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -17241,126 +15512,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -17392,19 +15543,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -17445,31 +15583,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -17552,46 +15666,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -17840,19 +15914,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -17879,126 +15940,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -18030,19 +15971,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -18083,31 +16011,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -18190,46 +16094,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -18478,19 +16342,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -18517,126 +16368,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -18668,19 +16399,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -18721,31 +16439,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -18828,46 +16522,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -19116,19 +16770,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -19155,126 +16796,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -19306,19 +16827,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -19359,31 +16867,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -19466,46 +16950,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -19754,19 +17198,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -19793,126 +17224,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -19944,19 +17255,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -19997,31 +17295,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -20104,46 +17378,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -20392,19 +17626,6 @@
           }
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MQTTnet/4.1.4.563": {
         "type": "package",
         "compile": {
@@ -20431,129 +17652,6 @@
         "runtime": {
           "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/_._": {}
-        },
-        "native": {
-          "runtimes/maccatalyst/native/libSkiaSharp.framework.zip": {}
-        },
-        "build": {
-          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
-        }
-      },
-      "SkiaSharp.Skottie/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll": {
-            "related": ".pdb"
-          },
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.Views.Uno.WinUI/2.88.1-preview.79": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.1-preview.79",
-          "Uno.WinUI": "4.0.13"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Windows.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/SkiaSharp.Views.Uno.WinUI.targets": {}
-        }
-      },
-      "System.Json/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Uno.Core.Extensions.Logging/4.0.0-dev.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
-            "related": ".pdb"
           }
         }
       },
@@ -20585,19 +17683,6 @@
           "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Uno.Extensions.Logging.OSLog/1.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll": {}
         }
       },
       "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -20638,31 +17723,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard1.0/Uno.SourceGenerationTasks.targets": {}
-        }
-      },
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Uno.Core.Extensions.Logging": "4.0.0-dev.7",
-          "Uno.Core.Extensions.Logging.Singleton": "4.0.0-dev.7",
-          "Uno.Foundation.Logging": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Uno.Foundation.Logging.dll": {
-            "related": ".dll.config;.pdb"
-          },
-          "lib/net7.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
-            "related": ".deps.json;.dll.config;.pdb"
-          }
+          "build/netstandard1.0/_._": {}
         }
       },
       "Uno.WinUI/4.7.37": {
@@ -20745,46 +17806,6 @@
         },
         "build": {
           "buildTransitive/net7.0-maccatalyst/uno.winui.targets": {}
-        }
-      },
-      "Uno.WinUI.Lottie/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.maccatalyst": "2.88.1-preview.79",
-          "SkiaSharp.Skottie": "2.88.1-preview.79",
-          "SkiaSharp.Views.Uno.WinUI": "2.88.1-preview.79",
-          "System.Json": "4.7.1",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.Lottie.dll": {}
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.Lottie.targets": {}
-        }
-      },
-      "Uno.WinUI.RemoteControl/4.7.37": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Newtonsoft.Json": "12.0.2",
-          "Uno.WinUI": "4.7.37"
-        },
-        "compile": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-maccatalyst/Uno.UI.RemoteControl.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "buildTransitive/Uno.WinUI.RemoteControl.targets": {}
         }
       },
       "PongCoasterServer/1.0.0": {
@@ -21329,46 +18350,6 @@
         "skiasharp.nativeassets.android.nuspec"
       ]
     },
-    "SkiaSharp.NativeAssets.iOS/2.88.1-preview.79": {
-      "sha512": "YICdG+RsW7TKcb+FxVOmnfrBmzhT/oKcJh8NQXrtbEVeEP576Z6F2uDjZ+8HIeCg/U4r7/4uYJ8fQ+RLMKiM9Q==",
-      "type": "package",
-      "path": "skiasharp.nativeassets.ios/2.88.1-preview.79",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets",
-        "build/xamarinios1.0/SkiaSharp.NativeAssets.iOS.targets",
-        "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets",
-        "buildTransitive/xamarinios1.0/SkiaSharp.NativeAssets.iOS.targets",
-        "lib/net6.0-ios13.6/_._",
-        "lib/xamarinios1.0/_._",
-        "runtimes/ios/native/libSkiaSharp.framework/Info.plist",
-        "runtimes/ios/native/libSkiaSharp.framework/Modules/module.modulemap",
-        "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources",
-        "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp",
-        "skiasharp.nativeassets.ios.2.88.1-preview.79.nupkg.sha512",
-        "skiasharp.nativeassets.ios.nuspec"
-      ]
-    },
-    "SkiaSharp.NativeAssets.MacCatalyst/2.88.1-preview.79": {
-      "sha512": "YlJ5vqGLZe1r9m6jtW7qJJM10o+3UR1ge2nZOT8fajk8tMRdbj5GRH6FJsGzl6LUgOhKqSBKx8qQ4HU7byQJ8g==",
-      "type": "package",
-      "path": "skiasharp.nativeassets.maccatalyst/2.88.1-preview.79",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets",
-        "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets",
-        "lib/net6.0-maccatalyst13.5/_._",
-        "runtimes/maccatalyst/native/libSkiaSharp.framework.zip",
-        "skiasharp.nativeassets.maccatalyst.2.88.1-preview.79.nupkg.sha512",
-        "skiasharp.nativeassets.maccatalyst.nuspec"
-      ]
-    },
     "SkiaSharp.Skottie/2.88.1-preview.79": {
       "sha512": "2gi/dc+a9ezGz0vxGbNaiN0/359L0T32Lsxw9/yh5KfP0nNnnO1OjabGtSdHLfZ/Ov9RpfU8bQsVlxD5XDTqpQ==",
       "type": "package",
@@ -21520,40 +18501,6 @@
         "version.txt"
       ]
     },
-    "System.Json/4.7.1": {
-      "sha512": "XymImdgljgVEkd9trFSKWlNJac1Hr+L9lwFLQSUUQfFMkm88AHI6DINAMhpoiUWQIPLIqEjR702eydUb4Qb3Ng==",
-      "type": "package",
-      "path": "system.json/4.7.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/Xamarinmac20/_._",
-        "lib/monoandroid10/_._",
-        "lib/monotouch10/_._",
-        "lib/net461/System.Json.dll",
-        "lib/net461/System.Json.xml",
-        "lib/netstandard1.0/System.Json.dll",
-        "lib/netstandard1.0/System.Json.xml",
-        "lib/netstandard2.0/System.Json.dll",
-        "lib/netstandard2.0/System.Json.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/Xamarinmac20/_._",
-        "ref/monoandroid10/_._",
-        "ref/monotouch10/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.json.4.7.1.nupkg.sha512",
-        "system.json.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "type": "package",
@@ -21584,23 +18531,6 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
-      "type": "package",
-      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "ref/net6.0/System.Runtime.InteropServices.dll",
-        "ref/net6.0/System.Runtime.InteropServices.xml",
-        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
-        "system.runtime.interopservices.nfloat.internal.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "System.Text.Encodings.Web/5.0.0": {
@@ -21734,23 +18664,6 @@
         "lib/netstandard2.0/Uno.Diagnostics.Eventing.pdb",
         "uno.diagnostics.eventing.2.0.1.nupkg.sha512",
         "uno.diagnostics.eventing.nuspec"
-      ]
-    },
-    "Uno.Extensions.Logging.OSLog/1.4.0": {
-      "sha512": "BW6K3+fut7V9qe0T1HhhAJbq6nrF18v2iLdG3QH1bQL/Hgy0mJ1/QnW/y7i11+Nb8suGvd3WXPLlRK98M6g1sQ==",
-      "type": "package",
-      "path": "uno.extensions.logging.oslog/1.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0-android31.0/_._",
-        "lib/net6.0-ios10.0/Uno.Extensions.Logging.OSLog.dll",
-        "lib/net6.0-maccatalyst13.1/Uno.Extensions.Logging.OSLog.dll",
-        "lib/net6.0-macos10.14/_._",
-        "lib/xamarinios10/Uno.Extensions.Logging.OSLog.dll",
-        "uno-logo.png",
-        "uno.extensions.logging.oslog.1.4.0.nupkg.sha512",
-        "uno.extensions.logging.oslog.nuspec"
       ]
     },
     "Uno.Fonts.Fluent/2.0.0-dev.20": {
@@ -24425,22 +21338,10 @@
       "Xamarin.Google.Android.Material >= 1.4.0.4"
     ],
     "net7.0-ios16.1": [
-      "Microsoft.Extensions.Logging.Console >= 5.0.0",
-      "PongCoasterUI >= 1.0.0",
-      "Uno.Extensions.Logging.OSLog >= 1.4.0",
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging >= 4.7.37",
-      "Uno.WinUI >= 4.7.37",
-      "Uno.WinUI.Lottie >= 4.7.37",
-      "Uno.WinUI.RemoteControl >= 4.7.37"
+      "PongCoasterUI >= 1.0.0"
     ],
     "net7.0-maccatalyst16.1": [
-      "Microsoft.Extensions.Logging.Console >= 5.0.0",
-      "PongCoasterUI >= 1.0.0",
-      "Uno.Extensions.Logging.OSLog >= 1.4.0",
-      "Uno.UI.Adapter.Microsoft.Extensions.Logging >= 4.7.37",
-      "Uno.WinUI >= 4.7.37",
-      "Uno.WinUI.Lottie >= 4.7.37",
-      "Uno.WinUI.RemoteControl >= 4.7.37"
+      "PongCoasterUI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -24565,32 +21466,6 @@
       },
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Console": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
-          "Uno.Extensions.Logging.OSLog": {
-            "target": "Package",
-            "version": "[1.4.0, )"
-          },
-          "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          },
-          "Uno.WinUI": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          },
-          "Uno.WinUI.Lottie": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          },
-          "Uno.WinUI.RemoteControl": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -24602,44 +21477,10 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.iOS": {
-            "privateAssets": "all"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       },
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Console": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
-          "Uno.Extensions.Logging.OSLog": {
-            "target": "Package",
-            "version": "[1.4.0, )"
-          },
-          "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          },
-          "Uno.WinUI": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          },
-          "Uno.WinUI.Lottie": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          },
-          "Uno.WinUI.RemoteControl": {
-            "target": "Package",
-            "version": "[4.7.37, )"
-          }
-        },
         "imports": [
           "xamarinios10",
           "net461",
@@ -24652,14 +21493,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.MacCatalyst": {
-            "privateAssets": "all"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     },

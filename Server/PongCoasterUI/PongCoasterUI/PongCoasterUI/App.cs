@@ -10,6 +10,8 @@ using PongCoasterServer.MQTT;
 using MQTTnet;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace PongCoasterUI
 {
@@ -18,7 +20,7 @@ namespace PongCoasterUI
     /// </summary>
     public partial class App : Application
     {
-        public List<Coaster> CoasterList { get; set; } = new List<Coaster>();
+        public ObservableCollection<Coaster> CoasterList { get; set; } = new ObservableCollection<Coaster>();
 
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -116,7 +118,7 @@ namespace PongCoasterUI
                 {
                     var hostname = topic.Replace("connected/", "");
                     Console.WriteLine("Connected: " + hostname);
-                    if (CoasterList.Find(coster => coster.Hostname == hostname) != null) return Task.CompletedTask;
+                    if (CoasterList.FirstOrDefault(coster => coster.Hostname == hostname) != null) return Task.CompletedTask;
                     var coster = new Coaster(hostname, client);
                     CoasterList.Add(coster);
                 }
@@ -129,7 +131,7 @@ namespace PongCoasterUI
             {
                 var hostname = sender.ClientId;
                 Console.WriteLine("Disconnected: " + hostname);
-                var coaster = CoasterList.Find(coster => coster.Hostname == hostname);
+                var coaster = CoasterList.FirstOrDefault(coster => coster.Hostname == hostname);
                 if (coaster != null) coaster.Dispose();
                 if (coaster != null) CoasterList.Remove(coaster);
                 return Task.CompletedTask;
