@@ -20,16 +20,16 @@ namespace PongCoasterUI
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class SettingsPage : Page
     {
-        public MainPage()
+        public SettingsPage()
         {
             this.InitializeComponent();
         }
 
-        private void Settings_OnClick(object sender, RoutedEventArgs e)
+        private void MainPage_OnClick(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(SettingsPage));
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }
