@@ -29,6 +29,8 @@ char weightTopic[50] = "weight/";
 char voltageTopic[50] = "voltage/";
 char tareTopic[50] = "tare/";
 char connectedTopic[50] = "connected/";
+char colorTopic[50] = "connected/";
+
 
 //LED
 #define LED_COUNT 18
@@ -56,6 +58,21 @@ double voltageReadings[VOLTAGE_WINDOW_SIZE];
 double voltageAvarage = 0;
 unsigned long previousMillisVoltage = 0;
 
+uint32_t parseColorString(String colorString) {
+  // Remove leading '#' character
+  if (colorString[0] == '#') {
+    colorString = colorString.substring(1);
+  }
+
+  // Parse color components from hexadecimal notation
+  int r = strtol(colorString.substring(0, 2).c_str(), NULL, 16);
+  int g = strtol(colorString.substring(2, 4).c_str(), NULL, 16);
+  int b = strtol(colorString.substring(4, 6).c_str(), NULL, 16);
+
+  // Combine color components into 32-bit integer (in format expected by WS2812FX library)
+  return ws2812fx.Color(r, g, b);
+}
+
 //interrupt routine:
 void ICACHE_RAM_ATTR dataReadyISR() {
   if (LoadCell.update()) {
@@ -70,10 +87,14 @@ void saveConfigCallback () {
 }
 
 void mqttCallback(char* topic, byte* payload, unsigned int length) {
-  Serial.println(topic);
   if (strcmp(tareTopic, topic) == 0) {
     LoadCell.tareNoDelay();
     Serial.println("tare");
+  } else if (strcmp(colorTopic, topic) == 0) {
+    String color = String((char*)payload);
+    ws2812fx.setColor(parseColorString(color));
+    ws2812fx.setMode(FX_MODE_RUNNING_LIGHTS);
+    ws2812fx.show();
   }
 }
 
@@ -88,6 +109,7 @@ void reconnect() {
       Serial.println("connected");
       client.publish(connectedTopic, hostname);
       client.subscribe("tare/#");  // subscribe to this topic
+      client.subscribe("color/#");  // subscribe to this topic
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -187,6 +209,7 @@ void setup() {
     strcat(voltageTopic, hostname);
     strcat(tareTopic, hostname);
     strcat(connectedTopic, hostname);
+    strcat(colorTopic, hostname);
 }
 
 void loop() {
