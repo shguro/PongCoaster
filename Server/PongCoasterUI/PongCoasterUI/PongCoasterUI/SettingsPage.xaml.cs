@@ -7,11 +7,13 @@ using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using PongCoasterUI.Model;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -22,6 +24,8 @@ namespace PongCoasterUI
     /// </summary>
     public sealed partial class SettingsPage : Page
     {
+        private readonly App _app = (App)Application.Current;
+        public ObservableCollection<Coaster> Coasters => _app.CoasterList;
         public SettingsPage()
         {
             this.InitializeComponent();

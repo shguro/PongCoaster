@@ -5,13 +5,13 @@ using Microsoft.UI.Xaml.Navigation;
 using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using PongCoasterServer;
-using PongCoasterServer.MQTT;
 using MQTTnet;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.Linq;
+using PongCoasterUI.Model;
+using PongCoasterUI.MQTT;
 
 namespace PongCoasterUI
 {

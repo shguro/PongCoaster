@@ -5,21 +5,17 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{A0CBBF90-FB96-4AFD-9F15-52B1365C7AFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongCoasterUI", "PongCoasterUI\PongCoasterUI\PongCoasterUI.csproj", "{8FDD2827-516F-48DF-A9FE-285BEACBBB1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterUI", "PongCoasterUI\PongCoasterUI\PongCoasterUI.csproj", "{8FDD2827-516F-48DF-A9FE-285BEACBBB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongCoasterUI.Wasm", "PongCoasterUI\PongCoasterUI.Wasm\PongCoasterUI.Wasm.csproj", "{5AB223FD-C562-4EE2-81A9-823A948A2F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterUI.Wasm", "PongCoasterUI\PongCoasterUI.Wasm\PongCoasterUI.Wasm.csproj", "{5AB223FD-C562-4EE2-81A9-823A948A2F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongCoasterUI.Mobile", "PongCoasterUI\PongCoasterUI.Mobile\PongCoasterUI.Mobile.csproj", "{EFE31D1D-904B-47E7-A88C-272499A3F037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterUI.Mobile", "PongCoasterUI\PongCoasterUI.Mobile\PongCoasterUI.Mobile.csproj", "{EFE31D1D-904B-47E7-A88C-272499A3F037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongCoasterUI.Skia.Gtk", "PongCoasterUI\PongCoasterUI.Skia.Gtk\PongCoasterUI.Skia.Gtk.csproj", "{E80EE500-AF5E-427B-AB17-1A9923D27F47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterUI.Skia.Gtk", "PongCoasterUI\PongCoasterUI.Skia.Gtk\PongCoasterUI.Skia.Gtk.csproj", "{E80EE500-AF5E-427B-AB17-1A9923D27F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongCoasterUI.Windows", "PongCoasterUI\PongCoasterUI.Windows\PongCoasterUI.Windows.csproj", "{11773446-C1A8-4391-878B-321FBBEB9E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterUI.Windows", "PongCoasterUI\PongCoasterUI.Windows\PongCoasterUI.Windows.csproj", "{11773446-C1A8-4391-878B-321FBBEB9E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongCoasterUI.Skia.Wpf", "PongCoasterUI\PongCoasterUI.Skia.Wpf\PongCoasterUI.Skia.Wpf.csproj", "{395A7B29-A661-42BA-A5D0-B33AF3BB13E6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{13EB1930-8F48-46F4-A66F-0EE7714BEBC0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterServer", "PongCoasterUI\PongCoasterServer\PongCoasterServer.csproj", "{F64E0E0B-E06C-4F75-9635-9A5703425CA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PongCoasterUI.Skia.Wpf", "PongCoasterUI\PongCoasterUI.Skia.Wpf\PongCoasterUI.Skia.Wpf.csproj", "{395A7B29-A661-42BA-A5D0-B33AF3BB13E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,22 +141,6 @@ Global
 		{395A7B29-A661-42BA-A5D0-B33AF3BB13E6}.Release|x64.Build.0 = Release|Any CPU
 		{395A7B29-A661-42BA-A5D0-B33AF3BB13E6}.Release|x86.ActiveCfg = Release|Any CPU
 		{395A7B29-A661-42BA-A5D0-B33AF3BB13E6}.Release|x86.Build.0 = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|arm64.Build.0 = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|x64.Build.0 = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Debug|x86.Build.0 = Debug|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|arm64.ActiveCfg = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|arm64.Build.0 = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|x64.ActiveCfg = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|x64.Build.0 = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|x86.ActiveCfg = Release|Any CPU
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,7 +151,6 @@ Global
 		{E80EE500-AF5E-427B-AB17-1A9923D27F47} = {A0CBBF90-FB96-4AFD-9F15-52B1365C7AFE}
 		{11773446-C1A8-4391-878B-321FBBEB9E83} = {A0CBBF90-FB96-4AFD-9F15-52B1365C7AFE}
 		{395A7B29-A661-42BA-A5D0-B33AF3BB13E6} = {A0CBBF90-FB96-4AFD-9F15-52B1365C7AFE}
-		{F64E0E0B-E06C-4F75-9635-9A5703425CA2} = {13EB1930-8F48-46F4-A66F-0EE7714BEBC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8DCB601-13B5-43E9-8163-4493A91AF484}
