@@ -1,3 +1,4 @@
+PongCoasterUI.dll
 SkiaSharp.dll
 SkiaSharp.SceneGraph.dll
 SkiaSharp.Skottie.dll
@@ -103,7 +104,6 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+PongCoasterUI.aar
 UniversalImageLoader.aar
 Uno.UI.BindingHelper.Android.aar
-PongCoasterUI.dll
-PongCoasterUI.aar

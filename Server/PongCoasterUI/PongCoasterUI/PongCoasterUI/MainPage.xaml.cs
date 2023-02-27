@@ -26,10 +26,10 @@ namespace PongCoasterUI
         {
             this.InitializeComponent();
         }
-
         private void Settings_OnClick(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(SettingsPage));
         }
     }
 }
+

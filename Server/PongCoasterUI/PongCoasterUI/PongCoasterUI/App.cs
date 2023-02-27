@@ -3,13 +3,12 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 using System;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using MQTTnet;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
-using System.Linq;
 using PongCoasterUI.Model;
 using PongCoasterUI.MQTT;
 
@@ -32,7 +31,6 @@ namespace PongCoasterUI
         /// </remarks>
         public App()
         {
-
         }
 
         /// <summary>
@@ -47,10 +45,8 @@ namespace PongCoasterUI
         /// <param name="args">Details about the launch request and process.</param>
         protected override async void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
-
-            
 #if DEBUG
-        if (System.Diagnostics.Debugger.IsAttached)
+		if (System.Diagnostics.Debugger.IsAttached)
 		{
 			// this.DebugSettings.EnableFrameRateCounter = true;
 		}
@@ -94,10 +90,7 @@ namespace PongCoasterUI
                 }
                 // Ensure the current window is active
                 MainWindow.Activate();
-
-
             }
-
             var server = new MqttSimpleServer();
             await server.StartAsync();
 

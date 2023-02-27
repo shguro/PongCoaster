@@ -3,6 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
+    <ActiveDebugProfile>OnePlus DN2103 (Android 12.0 - API 31)</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
     <None Update="C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Base\AppHead.xaml">

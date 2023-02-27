@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IU+Wrdeqs9PdTAveWVIaCacIY7afG8rH3YbxCgLHtR85mmOiR0D/RFoHhCJjqjhDnWKWpcUqdWLng+rNUVWelg==",
+  "dgSpecHash": "5rqjlcARyZ0m688AveoPr6VTWbaqwEwy1YTIAZ18rsm4KygPzCu3oSaeuP1+EHrXjIoxr0/36dc4yC1M2tVPbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,6 @@
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\mqttnet\\4.1.4.563\\mqttnet.4.1.4.563.nupkg.sha512",
-    "C:\\Users\\shguro\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.1.4.563\\mqttnet.extensions.managedclient.4.1.4.563.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\runtime.any.system.globalization\\4.3.0\\runtime.any.system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\runtime.any.system.io\\4.3.0\\runtime.any.system.io.4.3.0.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('Windows')) or '$(EnableWindowsTargeting)' == 'true'">$(TargetFrameworks);net7.0-windows10.0.18362</TargetFrameworks>
 		<TargetFrameworks>$(TargetFrameworks);net7.0</TargetFrameworks><!-- 
@@ -43,10 +43,5 @@
   </ItemGroup>
   <ItemGroup>
     <UpToDateCheckInput Remove="SettingsPage.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="SettingsPage.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-    </Page>
   </ItemGroup>
 </Project>

@@ -55,9 +55,19 @@
     <Import Project="$(NuGetPackageRoot)uno.winui.lottie\4.7.37\buildTransitive\Uno.WinUI.Lottie.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.lottie\4.7.37\buildTransitive\Uno.WinUI.Lottie.targets')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.sourcegenerationtasks\4.2.0\build\netstandard1.0\Uno.SourceGenerationTasks.targets" Condition="Exists('$(NuGetPackageRoot)uno.sourcegenerationtasks\4.2.0\build\netstandard1.0\Uno.SourceGenerationTasks.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.winui\4.7.37\buildTransitive\net7.0-ios\uno.winui.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui\4.7.37\buildTransitive\net7.0-ios\uno.winui.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.remotecontrol\4.7.37\buildTransitive\Uno.WinUI.RemoteControl.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.remotecontrol\4.7.37\buildTransitive\Uno.WinUI.RemoteControl.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.ios\2.88.1-preview.79\buildTransitive\net6.0-ios13.6\SkiaSharp.NativeAssets.iOS.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.ios\2.88.1-preview.79\buildTransitive\net6.0-ios13.6\SkiaSharp.NativeAssets.iOS.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.views.uno.winui\2.88.1-preview.79\buildTransitive\netstandard2.0\SkiaSharp.Views.Uno.WinUI.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.views.uno.winui\2.88.1-preview.79\buildTransitive\netstandard2.0\SkiaSharp.Views.Uno.WinUI.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.lottie\4.7.37\buildTransitive\Uno.WinUI.Lottie.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.lottie\4.7.37\buildTransitive\Uno.WinUI.Lottie.targets')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.sourcegenerationtasks\4.2.0\build\netstandard1.0\Uno.SourceGenerationTasks.targets" Condition="Exists('$(NuGetPackageRoot)uno.sourcegenerationtasks\4.2.0\build\netstandard1.0\Uno.SourceGenerationTasks.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.winui\4.7.37\buildTransitive\net7.0-maccatalyst\uno.winui.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui\4.7.37\buildTransitive\net7.0-maccatalyst\uno.winui.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.remotecontrol\4.7.37\buildTransitive\Uno.WinUI.RemoteControl.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.remotecontrol\4.7.37\buildTransitive\Uno.WinUI.RemoteControl.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.maccatalyst\2.88.1-preview.79\buildTransitive\net6.0-maccatalyst13.5\SkiaSharp.NativeAssets.MacCatalyst.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.maccatalyst\2.88.1-preview.79\buildTransitive\net6.0-maccatalyst13.5\SkiaSharp.NativeAssets.MacCatalyst.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.views.uno.winui\2.88.1-preview.79\buildTransitive\netstandard2.0\SkiaSharp.Views.Uno.WinUI.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.views.uno.winui\2.88.1-preview.79\buildTransitive\netstandard2.0\SkiaSharp.Views.Uno.WinUI.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.lottie\4.7.37\buildTransitive\Uno.WinUI.Lottie.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.lottie\4.7.37\buildTransitive\Uno.WinUI.Lottie.targets')" />
   </ImportGroup>
 </Project>

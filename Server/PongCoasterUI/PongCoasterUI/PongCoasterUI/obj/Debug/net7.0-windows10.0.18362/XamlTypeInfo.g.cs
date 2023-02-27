@@ -172,17 +172,41 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[16];
             _typeNameTable[0] = "PongCoasterUI.MainPage";
             _typeNameTable[1] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "PongCoasterUI.SettingsPage";
+            _typeNameTable[3] = "PongCoasterUI.Converters.ColorToBrushConverter";
+            _typeNameTable[4] = "Object";
+            _typeNameTable[5] = "PongCoasterUI.SettingsPage";
+            _typeNameTable[6] = "System.Collections.ObjectModel.ObservableCollection`1<PongCoasterUI.Model.Coaster>";
+            _typeNameTable[7] = "System.Collections.ObjectModel.Collection`1<PongCoasterUI.Model.Coaster>";
+            _typeNameTable[8] = "PongCoasterUI.Model.Coaster";
+            _typeNameTable[9] = "MQTTnet.Internal.Disposable";
+            _typeNameTable[10] = "String";
+            _typeNameTable[11] = "System.Nullable`1<System.Drawing.Color>";
+            _typeNameTable[12] = "System.ValueType";
+            _typeNameTable[13] = "System.Drawing.Color";
+            _typeNameTable[14] = "System.Nullable`1<Double>";
+            _typeNameTable[15] = "Double";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[16];
             _typeTable[0] = typeof(global::PongCoasterUI.MainPage);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::PongCoasterUI.SettingsPage);
+            _typeTable[3] = typeof(global::PongCoasterUI.Converters.ColorToBrushConverter);
+            _typeTable[4] = typeof(global::System.Object);
+            _typeTable[5] = typeof(global::PongCoasterUI.SettingsPage);
+            _typeTable[6] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>);
+            _typeTable[7] = typeof(global::System.Collections.ObjectModel.Collection<global::PongCoasterUI.Model.Coaster>);
+            _typeTable[8] = typeof(global::PongCoasterUI.Model.Coaster);
+            _typeTable[9] = typeof(global::MQTTnet.Internal.Disposable);
+            _typeTable[10] = typeof(global::System.String);
+            _typeTable[11] = typeof(global::System.Nullable<global::System.Drawing.Color>);
+            _typeTable[12] = typeof(global::System.ValueType);
+            _typeTable[13] = typeof(global::System.Drawing.Color);
+            _typeTable[14] = typeof(global::System.Nullable<global::System.Double>);
+            _typeTable[15] = typeof(global::System.Double);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -218,7 +242,22 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::PongCoasterUI.MainPage(); }
-        private object Activate_3_SettingsPage() { return new global::PongCoasterUI.SettingsPage(); }
+        private object Activate_3_ColorToBrushConverter() { return new global::PongCoasterUI.Converters.ColorToBrushConverter(); }
+        private object Activate_5_SettingsPage() { return new global::PongCoasterUI.SettingsPage(); }
+        private object Activate_6_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>(); }
+        private object Activate_7_Collection() { return new global::System.Collections.ObjectModel.Collection<global::PongCoasterUI.Model.Coaster>(); }
+        private void VectorAdd_6_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::PongCoasterUI.Model.Coaster>)instance;
+            var newItem = (global::PongCoasterUI.Model.Coaster)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_7_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::PongCoasterUI.Model.Coaster>)instance;
+            var newItem = (global::PongCoasterUI.Model.Coaster)item;
+            collection.Add(newItem);
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -245,11 +284,87 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  PongCoasterUI.SettingsPage
-                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_SettingsPage;
+            case 3:   //  PongCoasterUI.Converters.ColorToBrushConverter
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_3_ColorToBrushConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
+                break;
+
+            case 4:   //  Object
+                xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  PongCoasterUI.SettingsPage
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_SettingsPage;
+                userType.AddMemberName("Coasters");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  System.Collections.ObjectModel.ObservableCollection`1<PongCoasterUI.Model.Coaster>
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<PongCoasterUI.Model.Coaster>"));
+                userType.CollectionAdd = VectorAdd_6_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 7:   //  System.Collections.ObjectModel.Collection`1<PongCoasterUI.Model.Coaster>
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_7_Collection;
+                userType.CollectionAdd = VectorAdd_7_Collection;
+                xamlType = userType;
+                break;
+
+            case 8:   //  PongCoasterUI.Model.Coaster
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MQTTnet.Internal.Disposable"));
+                userType.AddMemberName("Hostname");
+                userType.AddMemberName("Color");
+                userType.AddMemberName("LastWeight");
+                userType.AddMemberName("LastVoltage");
+                userType.AddMemberName("UserName");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  MQTTnet.Internal.Disposable
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 10:   //  String
+                xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 11:   //  System.Nullable`1<System.Drawing.Color>
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetBoxedType(GetXamlTypeByName("System.Drawing.Color"));
+                userType.BoxInstance = userType.BoxType<global::System.Drawing.Color>;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 12:   //  System.ValueType
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.Drawing.Color
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 14:   //  System.Nullable`1<Double>
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetBoxedType(GetXamlTypeByName("Double"));
+                userType.BoxInstance = userType.BoxType<global::System.Double>;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Double
+                xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -312,11 +427,111 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
             return foundXamlType;
         }
 
+        private object get_0_SettingsPage_Coasters(object instance)
+        {
+            var that = (global::PongCoasterUI.SettingsPage)instance;
+            return that.Coasters;
+        }
+        private void set_0_SettingsPage_Coasters(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.SettingsPage)instance;
+            that.Coasters = (global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>)Value;
+        }
+        private object get_1_Coaster_Hostname(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.Hostname;
+        }
+        private void set_1_Coaster_Hostname(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.Hostname = (global::System.String)Value;
+        }
+        private object get_2_Coaster_Color(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.Color;
+        }
+        private void set_2_Coaster_Color(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.Color = (global::System.Nullable<global::System.Drawing.Color>)Value;
+        }
+        private object get_3_Coaster_LastWeight(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.LastWeight;
+        }
+        private void set_3_Coaster_LastWeight(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.LastWeight = (global::System.Nullable<global::System.Double>)Value;
+        }
+        private object get_4_Coaster_LastVoltage(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.LastVoltage;
+        }
+        private void set_4_Coaster_LastVoltage(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.LastVoltage = (global::System.Nullable<global::System.Double>)Value;
+        }
+        private object get_5_Coaster_UserName(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.UserName;
+        }
+        private void set_5_Coaster_UserName(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.UserName = (global::System.String)Value;
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "PongCoasterUI.SettingsPage.Coasters":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.SettingsPage");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "Coasters", "System.Collections.ObjectModel.ObservableCollection`1<PongCoasterUI.Model.Coaster>");
+                xamlMember.Getter = get_0_SettingsPage_Coasters;
+                xamlMember.Setter = set_0_SettingsPage_Coasters;
+                break;
+            case "PongCoasterUI.Model.Coaster.Hostname":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "Hostname", "String");
+                xamlMember.Getter = get_1_Coaster_Hostname;
+                xamlMember.Setter = set_1_Coaster_Hostname;
+                break;
+            case "PongCoasterUI.Model.Coaster.Color":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "Color", "System.Nullable`1<System.Drawing.Color>");
+                xamlMember.Getter = get_2_Coaster_Color;
+                xamlMember.Setter = set_2_Coaster_Color;
+                break;
+            case "PongCoasterUI.Model.Coaster.LastWeight":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "LastWeight", "System.Nullable`1<Double>");
+                xamlMember.Getter = get_3_Coaster_LastWeight;
+                xamlMember.Setter = set_3_Coaster_LastWeight;
+                break;
+            case "PongCoasterUI.Model.Coaster.LastVoltage":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "LastVoltage", "System.Nullable`1<Double>");
+                xamlMember.Getter = get_4_Coaster_LastVoltage;
+                xamlMember.Setter = set_4_Coaster_LastVoltage;
+                break;
+            case "PongCoasterUI.Model.Coaster.UserName":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "UserName", "String");
+                xamlMember.Getter = get_5_Coaster_UserName;
+                xamlMember.Setter = set_5_Coaster_UserName;
+                break;
+            }
             return xamlMember;
         }
     }

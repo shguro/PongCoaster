@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k0FU+sVBygagVK0Zy9Ka3gpAiyJdow8HwND0Ina1j/ulQ1H+ZFlif+7V2pc7x9mfsVn+kHSHBuILmO3JQMSswg==",
+  "dgSpecHash": "HUyy1+VYhi2BCbQJk58xtxVWE8zgfvXjQx+fIODwdxu0gguyNeM+auVMyKL2x3kEXVXJuAZlWceWYK8713Clnw==",
   "success": true,
   "projectFilePath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Wasm\\PongCoasterUI.Wasm.csproj",
   "expectedPackageFiles": [
@@ -27,7 +27,6 @@
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\microsoft.windows.compatibility\\6.0.0\\microsoft.windows.compatibility.6.0.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\mqttnet\\4.1.4.563\\mqttnet.4.1.4.563.nupkg.sha512",
-    "C:\\Users\\shguro\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.1.4.563\\mqttnet.extensions.managedclient.4.1.4.563.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\shguro\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",

@@ -338,22 +338,6 @@
           }
         }
       },
-      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
-        "type": "package",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563"
-        },
-        "compile": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -727,27 +711,13 @@
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
       },
-      "PongCoasterServer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563",
-          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
-        },
-        "compile": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        }
-      },
       "PongCoasterUI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "MQTTnet": "4.1.4.563",
           "Microsoft.Extensions.Logging.Console": "5.0.0",
           "Microsoft.WindowsAppSDK": "1.1.3",
-          "PongCoasterServer": "1.0.0",
           "Uno.Core.Extensions.Logging.Singleton": "4.0.1",
           "Uno.WinUI": "4.7.37"
         },
@@ -1085,22 +1055,6 @@
           }
         }
       },
-      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
-        "type": "package",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563"
-        },
-        "compile": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1613,27 +1567,13 @@
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
       },
-      "PongCoasterServer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563",
-          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
-        },
-        "compile": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        }
-      },
       "PongCoasterUI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "MQTTnet": "4.1.4.563",
           "Microsoft.Extensions.Logging.Console": "5.0.0",
           "Microsoft.WindowsAppSDK": "1.1.3",
-          "PongCoasterServer": "1.0.0",
           "Uno.Core.Extensions.Logging.Singleton": "4.0.1",
           "Uno.WinUI": "4.7.37"
         },
@@ -1971,22 +1911,6 @@
           }
         }
       },
-      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
-        "type": "package",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563"
-        },
-        "compile": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2499,27 +2423,13 @@
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
       },
-      "PongCoasterServer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563",
-          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
-        },
-        "compile": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        }
-      },
       "PongCoasterUI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "MQTTnet": "4.1.4.563",
           "Microsoft.Extensions.Logging.Console": "5.0.0",
           "Microsoft.WindowsAppSDK": "1.1.3",
-          "PongCoasterServer": "1.0.0",
           "Uno.Core.Extensions.Logging.Singleton": "4.0.1",
           "Uno.WinUI": "4.7.37"
         },
@@ -2857,22 +2767,6 @@
           }
         }
       },
-      "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
-        "type": "package",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563"
-        },
-        "compile": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3385,27 +3279,13 @@
           "buildTransitive/net7.0/uno.winui.targets": {}
         }
       },
-      "PongCoasterServer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "MQTTnet": "4.1.4.563",
-          "MQTTnet.Extensions.ManagedClient": "4.1.4.563"
-        },
-        "compile": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PongCoasterServer.dll": {}
-        }
-      },
       "PongCoasterUI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "MQTTnet": "4.1.4.563",
           "Microsoft.Extensions.Logging.Console": "5.0.0",
           "Microsoft.WindowsAppSDK": "1.1.3",
-          "PongCoasterServer": "1.0.0",
           "Uno.Core.Extensions.Logging.Singleton": "4.0.1",
           "Uno.WinUI": "4.7.37"
         },
@@ -4582,37 +4462,6 @@
         "lib/uap10.0.10240/MQTTnet.xml",
         "mqttnet.4.1.4.563.nupkg.sha512",
         "mqttnet.nuspec",
-        "nuget.png"
-      ]
-    },
-    "MQTTnet.Extensions.ManagedClient/4.1.4.563": {
-      "sha512": "QgrSDz12YnVUdbV5Wu1tP9sgTRUJbN4jZUsHC2Bh93tAPf+6vPaeq2WAEPoyJ7MjCadyGSW0n4QFyCjgNG8Odg==",
-      "type": "package",
-      "path": "mqttnet.extensions.managedclient/4.1.4.563",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/net452/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/net461/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/net461/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/net5.0/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/net5.0/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/net6.0/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/netcoreapp3.1/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/netcoreapp3.1/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/netstandard1.3/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/netstandard1.3/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/netstandard2.0/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/netstandard2.0/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/netstandard2.1/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/netstandard2.1/MQTTnet.Extensions.ManagedClient.xml",
-        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.dll",
-        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.pri",
-        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.xml",
-        "mqttnet.extensions.managedclient.4.1.4.563.nupkg.sha512",
-        "mqttnet.extensions.managedclient.nuspec",
         "nuget.png"
       ]
     },
@@ -7248,11 +7097,6 @@
         "uno.winui.4.7.37.nupkg.sha512",
         "uno.winui.nuspec"
       ]
-    },
-    "PongCoasterServer/1.0.0": {
-      "type": "project",
-      "path": "../PongCoasterServer/PongCoasterServer.csproj",
-      "msbuildProject": "../PongCoasterServer/PongCoasterServer.csproj"
     },
     "PongCoasterUI/1.0.0": {
       "type": "project",
