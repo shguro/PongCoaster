@@ -29,7 +29,7 @@ char weightTopic[50] = "weight/";
 char voltageTopic[50] = "voltage/";
 char tareTopic[50] = "tare/";
 char connectedTopic[50] = "connected/";
-char colorTopic[50] = "connected/";
+char colorTopic[50] = "color/";
 
 
 //LED
