@@ -40,8 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="SettingsPage.xaml" />
+    <None Remove="WeightGame.xaml" />
   </ItemGroup>
   <ItemGroup>
     <UpToDateCheckInput Remove="SettingsPage.xaml" />
+    <UpToDateCheckInput Remove="WeightGame.xaml" />
   </ItemGroup>
 </Project>

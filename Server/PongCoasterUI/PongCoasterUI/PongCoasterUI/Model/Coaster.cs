@@ -22,6 +22,12 @@ public class Coaster : Disposable, INotifyPropertyChanged
     private double? _lastVoltage;
     private string? _userName;
 
+    //for weight game
+    
+    private DateTime _timerStartTime;
+    private double? _timerStartWeight;
+    private double? _timerEndWeight;
+
     public string? Hostname
     {
         get => _hostname;
@@ -90,6 +96,40 @@ public class Coaster : Disposable, INotifyPropertyChanged
             }
         }
     }
+
+
+    public DateTime TimerStartTime
+    {
+        get => _timerStartTime;
+        set
+        {
+            _timerStartTime = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public double? TimerStartWeight
+    {
+        get => _timerStartWeight;
+        set
+        {
+            _timerStartWeight = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public double? TimerEndWeight
+    {
+        get => _timerEndWeight;
+        set
+        {
+            _timerEndWeight = value;
+            OnPropertyChanged();
+            OnPropertyChanged(nameof(WeightDifference));
+        }
+    }
+
+    public double? WeightDifference => TimerEndWeight - TimerStartWeight;
 
     private MqttSimpleClient? Client { get; set; }
 

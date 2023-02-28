@@ -8,7 +8,13 @@
     mc:Ignorable="d"    
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Button Content="Settings" Click="Settings_OnClick"></Button>
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Weight Game" Click="WeightGame_OnClick" Margin="20"/>
+        <Button Grid.Row="1" Content="Settings" Click="Settings_OnClick" Margin="20"/>
     </Grid>
 </Page>

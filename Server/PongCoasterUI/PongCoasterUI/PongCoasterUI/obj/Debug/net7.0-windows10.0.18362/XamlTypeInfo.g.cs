@@ -172,7 +172,7 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[16];
+            _typeNameTable = new string[18];
             _typeNameTable[0] = "PongCoasterUI.MainPage";
             _typeNameTable[1] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Microsoft.UI.Xaml.Controls.UserControl";
@@ -189,8 +189,10 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
             _typeNameTable[13] = "System.Drawing.Color";
             _typeNameTable[14] = "System.Nullable`1<Double>";
             _typeNameTable[15] = "Double";
+            _typeNameTable[16] = "System.DateTime";
+            _typeNameTable[17] = "PongCoasterUI.WeightGame";
 
-            _typeTable = new global::System.Type[16];
+            _typeTable = new global::System.Type[18];
             _typeTable[0] = typeof(global::PongCoasterUI.MainPage);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
@@ -207,6 +209,8 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
             _typeTable[13] = typeof(global::System.Drawing.Color);
             _typeTable[14] = typeof(global::System.Nullable<global::System.Double>);
             _typeTable[15] = typeof(global::System.Double);
+            _typeTable[16] = typeof(global::System.DateTime);
+            _typeTable[17] = typeof(global::PongCoasterUI.WeightGame);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -246,6 +250,7 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
         private object Activate_5_SettingsPage() { return new global::PongCoasterUI.SettingsPage(); }
         private object Activate_6_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>(); }
         private object Activate_7_Collection() { return new global::System.Collections.ObjectModel.Collection<global::PongCoasterUI.Model.Coaster>(); }
+        private object Activate_17_WeightGame() { return new global::PongCoasterUI.WeightGame(); }
         private void VectorAdd_6_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::PongCoasterUI.Model.Coaster>)instance;
@@ -324,6 +329,10 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 userType.AddMemberName("LastWeight");
                 userType.AddMemberName("LastVoltage");
                 userType.AddMemberName("UserName");
+                userType.AddMemberName("TimerStartTime");
+                userType.AddMemberName("TimerStartWeight");
+                userType.AddMemberName("TimerEndWeight");
+                userType.AddMemberName("WeightDifference");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -365,6 +374,20 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
 
             case 15:   //  Double
                 xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 16:   //  System.DateTime
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 17:   //  PongCoasterUI.WeightGame
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_WeightGame;
+                userType.AddMemberName("Coasters");
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -487,6 +510,51 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
             var that = (global::PongCoasterUI.Model.Coaster)instance;
             that.UserName = (global::System.String)Value;
         }
+        private object get_6_Coaster_TimerStartTime(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.TimerStartTime;
+        }
+        private void set_6_Coaster_TimerStartTime(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.TimerStartTime = (global::System.DateTime)Value;
+        }
+        private object get_7_Coaster_TimerStartWeight(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.TimerStartWeight;
+        }
+        private void set_7_Coaster_TimerStartWeight(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.TimerStartWeight = (global::System.Nullable<global::System.Double>)Value;
+        }
+        private object get_8_Coaster_TimerEndWeight(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.TimerEndWeight;
+        }
+        private void set_8_Coaster_TimerEndWeight(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            that.TimerEndWeight = (global::System.Nullable<global::System.Double>)Value;
+        }
+        private object get_9_Coaster_WeightDifference(object instance)
+        {
+            var that = (global::PongCoasterUI.Model.Coaster)instance;
+            return that.WeightDifference;
+        }
+        private object get_10_WeightGame_Coasters(object instance)
+        {
+            var that = (global::PongCoasterUI.WeightGame)instance;
+            return that.Coasters;
+        }
+        private void set_10_WeightGame_Coasters(object instance, object Value)
+        {
+            var that = (global::PongCoasterUI.WeightGame)instance;
+            that.Coasters = (global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>)Value;
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -530,6 +598,36 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "UserName", "String");
                 xamlMember.Getter = get_5_Coaster_UserName;
                 xamlMember.Setter = set_5_Coaster_UserName;
+                break;
+            case "PongCoasterUI.Model.Coaster.TimerStartTime":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "TimerStartTime", "System.DateTime");
+                xamlMember.Getter = get_6_Coaster_TimerStartTime;
+                xamlMember.Setter = set_6_Coaster_TimerStartTime;
+                break;
+            case "PongCoasterUI.Model.Coaster.TimerStartWeight":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "TimerStartWeight", "System.Nullable`1<Double>");
+                xamlMember.Getter = get_7_Coaster_TimerStartWeight;
+                xamlMember.Setter = set_7_Coaster_TimerStartWeight;
+                break;
+            case "PongCoasterUI.Model.Coaster.TimerEndWeight":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "TimerEndWeight", "System.Nullable`1<Double>");
+                xamlMember.Getter = get_8_Coaster_TimerEndWeight;
+                xamlMember.Setter = set_8_Coaster_TimerEndWeight;
+                break;
+            case "PongCoasterUI.Model.Coaster.WeightDifference":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.Model.Coaster");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "WeightDifference", "System.Nullable`1<Double>");
+                xamlMember.Getter = get_9_Coaster_WeightDifference;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "PongCoasterUI.WeightGame.Coasters":
+                userType = (global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PongCoasterUI.WeightGame");
+                xamlMember = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlMember(this, "Coasters", "System.Collections.ObjectModel.ObservableCollection`1<PongCoasterUI.Model.Coaster>");
+                xamlMember.Getter = get_10_WeightGame_Coasters;
+                xamlMember.Setter = set_10_WeightGame_Coasters;
                 break;
             }
             return xamlMember;

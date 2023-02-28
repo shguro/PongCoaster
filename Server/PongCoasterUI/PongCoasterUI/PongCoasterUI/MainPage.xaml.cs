@@ -30,6 +30,11 @@ namespace PongCoasterUI
         {
             Frame.Navigate(typeof(SettingsPage));
         }
+
+        private void WeightGame_OnClick(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(WeightGame));
+        }
     }
 }
 
