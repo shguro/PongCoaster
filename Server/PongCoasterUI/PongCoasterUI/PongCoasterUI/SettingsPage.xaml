@@ -30,7 +30,7 @@
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
                                     <Ellipse Width="20" Height="20" Margin="5" Grid.Row="0" Grid.Column="0"
-                                             Fill="{x:Bind Color, Converter={StaticResource ColorToBrushConverter}}" Stroke="Black" StrokeThickness="1"/>
+                                             Fill="{x:Bind Color, Converter={StaticResource ColorToBrushConverter}}" Stroke="Black" StrokeThickness="1" PointerPressed="ColorBubble_OnPointerPressed"/>
                                     <TextBlock Text="{x:Bind Hostname}" Margin="5" Grid.Row="0" Grid.Column="1"
                                                FontWeight="Bold" FontSize="16"/>
                                     <TextBox Text="{x:Bind UserName, Mode=TwoWay}" Margin="5" Grid.Row="1" Grid.Column="1"/>

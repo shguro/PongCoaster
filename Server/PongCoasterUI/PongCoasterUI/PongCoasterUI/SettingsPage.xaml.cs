@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -94,6 +95,30 @@ namespace PongCoasterUI
             field = value;
             OnPropertyChanged(propertyName);
             return true;
+        }
+
+        private async void ColorBubble_OnPointerPressed(object sender, PointerRoutedEventArgs e)
+        {/*
+            // Get the Coaster object that corresponds to the clicked button
+            Coaster selectedCoaster = (sender as FrameworkElement)?.DataContext as Coaster;
+
+            if (selectedCoaster != null)
+            {
+                // Launch the color picker dialog
+                var colorPicker = new Windows.UI.Xaml.C
+
+                // Show the color picker dialog and wait for the user to select a color
+                var result = await colorPicker.ShowAsync();
+
+                if (result == ContentDialogResult.Primary)
+                {
+                    // Get the selected color
+                    Color selectedColor = colorPicker.Color;
+
+                    // Update the color of the selected Coaster object
+                    selectedCoaster.Color = selectedColor;
+                }
+            }*/
         }
     }
 }

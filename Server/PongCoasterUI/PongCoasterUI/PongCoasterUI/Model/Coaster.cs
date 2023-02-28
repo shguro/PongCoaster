@@ -1,4 +1,5 @@
 ﻿#nullable enable
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -9,6 +10,7 @@ using MQTTnet;
 using MQTTnet.Client;
 using MQTTnet.Internal;
 using PongCoasterUI.MQTT;
+using Windows.UI.Core;
 
 namespace PongCoasterUI.Model;
 
@@ -41,6 +43,10 @@ public class Coaster : Disposable, INotifyPropertyChanged
             if (_color != value)
             {
                 _color = value;
+                if (Client != null)
+                    if (_color != null)
+                        Client.PublishAsync("color/" + Hostname,
+                            $"#{_color.Value.R:X2}{_color.Value.G:X2}{_color.Value.B:X2}");
                 OnPropertyChanged(nameof(Color));
             }
         }
@@ -112,20 +118,22 @@ public class Coaster : Disposable, INotifyPropertyChanged
         base.Dispose(disposing);    
     }
 
-    private Task OnMessageReceived(MqttApplicationMessageReceivedEventArgs e)
+    private async Task OnMessageReceived(MqttApplicationMessageReceivedEventArgs e)
     {
         var topic = e.ApplicationMessage.Topic;
         var payload = e.ApplicationMessage.ConvertPayloadToString();
         if (topic == "weight/" + Hostname)
         {
-            LastWeight = double.Parse(payload, CultureInfo.InvariantCulture);
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => {
+                LastWeight = double.Parse(payload, CultureInfo.InvariantCulture);
+            });
         }
         else if (topic == "voltage/" + Hostname)
         {
-            LastVoltage = double.Parse(payload, CultureInfo.InvariantCulture);
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => {
+                LastVoltage = double.Parse(payload, CultureInfo.InvariantCulture);
+            });
         }
-
-        return Task.CompletedTask;
     }
 
     public event PropertyChangedEventHandler? PropertyChanged;

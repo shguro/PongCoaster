@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using Microsoft.UI;
 using MQTTnet;
 using PongCoasterUI.Model;
 using PongCoasterUI.MQTT;
@@ -102,7 +103,7 @@ namespace PongCoasterUI
 
 
             //connected
-            client.MessageReceived += (sender) =>
+            client.MessageReceived += async (sender) =>
             {
                 var topic = sender.ApplicationMessage.Topic;
                 var payload = sender.ApplicationMessage.ConvertPayloadToString();
@@ -111,23 +112,33 @@ namespace PongCoasterUI
                 {
                     var hostname = topic.Replace("connected/", "");
                     Console.WriteLine("Connected: " + hostname);
-                    if (CoasterList.FirstOrDefault(coster => coster.Hostname == hostname) != null) return Task.CompletedTask;
-                    var coster = new Coaster(hostname, client);
-                    CoasterList.Add(coster);
+                    await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    {
+                        if (CoasterList.FirstOrDefault(coaster => coaster.Hostname == hostname) == null)
+                        {
+                            var coaster = new Coaster(hostname, client);
+                            coaster.Color =
+                                Helper.Colors.ColorsList[CoasterList.Count % Helper.Colors.ColorsList.Count];
+                            CoasterList.Add(coaster);
+                        }
+                    });
                 }
-
-                return Task.CompletedTask;
             };
 
-            //dsconnected coaster
-            server.ClientDisconnected += (sender) =>
+            //disconnected coaster
+            server.ClientDisconnected += async (sender) =>
             {
                 var hostname = sender.ClientId;
                 Console.WriteLine("Disconnected: " + hostname);
                 var coaster = CoasterList.FirstOrDefault(coster => coster.Hostname == hostname);
-                if (coaster != null) coaster.Dispose();
-                if (coaster != null) CoasterList.Remove(coaster);
-                return Task.CompletedTask;
+                if (coaster != null)
+                {
+                    await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    {
+                        coaster.Dispose();
+                        CoasterList.Remove(coaster);
+                    });
+                }
             };
         }
 
