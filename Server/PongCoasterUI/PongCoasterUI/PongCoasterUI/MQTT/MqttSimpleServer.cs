@@ -20,7 +20,8 @@ public class MqttSimpleServer
     public async Task StartAsync()
     {
         var optionsBuilder = new MqttServerOptionsBuilder()
-            .WithDefaultEndpoint();
+            .WithDefaultEndpoint()
+            .WithDefaultCommunicationTimeout(TimeSpan.FromHours(1));
         
         await _mqttServer.StartAsync();
     }
