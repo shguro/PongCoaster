@@ -172,7 +172,7 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[18];
+            _typeNameTable = new string[17];
             _typeNameTable[0] = "PongCoasterUI.MainPage";
             _typeNameTable[1] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Microsoft.UI.Xaml.Controls.UserControl";
@@ -182,17 +182,16 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
             _typeNameTable[6] = "System.Collections.ObjectModel.ObservableCollection`1<PongCoasterUI.Model.Coaster>";
             _typeNameTable[7] = "System.Collections.ObjectModel.Collection`1<PongCoasterUI.Model.Coaster>";
             _typeNameTable[8] = "PongCoasterUI.Model.Coaster";
-            _typeNameTable[9] = "MQTTnet.Internal.Disposable";
-            _typeNameTable[10] = "String";
-            _typeNameTable[11] = "System.Nullable`1<System.Drawing.Color>";
-            _typeNameTable[12] = "System.ValueType";
-            _typeNameTable[13] = "System.Drawing.Color";
-            _typeNameTable[14] = "System.Nullable`1<Double>";
-            _typeNameTable[15] = "Double";
-            _typeNameTable[16] = "System.DateTime";
-            _typeNameTable[17] = "PongCoasterUI.WeightGame";
+            _typeNameTable[9] = "String";
+            _typeNameTable[10] = "System.Nullable`1<System.Drawing.Color>";
+            _typeNameTable[11] = "System.ValueType";
+            _typeNameTable[12] = "System.Drawing.Color";
+            _typeNameTable[13] = "System.Nullable`1<Double>";
+            _typeNameTable[14] = "Double";
+            _typeNameTable[15] = "System.DateTime";
+            _typeNameTable[16] = "PongCoasterUI.WeightGame";
 
-            _typeTable = new global::System.Type[18];
+            _typeTable = new global::System.Type[17];
             _typeTable[0] = typeof(global::PongCoasterUI.MainPage);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
@@ -202,15 +201,14 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
             _typeTable[6] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>);
             _typeTable[7] = typeof(global::System.Collections.ObjectModel.Collection<global::PongCoasterUI.Model.Coaster>);
             _typeTable[8] = typeof(global::PongCoasterUI.Model.Coaster);
-            _typeTable[9] = typeof(global::MQTTnet.Internal.Disposable);
-            _typeTable[10] = typeof(global::System.String);
-            _typeTable[11] = typeof(global::System.Nullable<global::System.Drawing.Color>);
-            _typeTable[12] = typeof(global::System.ValueType);
-            _typeTable[13] = typeof(global::System.Drawing.Color);
-            _typeTable[14] = typeof(global::System.Nullable<global::System.Double>);
-            _typeTable[15] = typeof(global::System.Double);
-            _typeTable[16] = typeof(global::System.DateTime);
-            _typeTable[17] = typeof(global::PongCoasterUI.WeightGame);
+            _typeTable[9] = typeof(global::System.String);
+            _typeTable[10] = typeof(global::System.Nullable<global::System.Drawing.Color>);
+            _typeTable[11] = typeof(global::System.ValueType);
+            _typeTable[12] = typeof(global::System.Drawing.Color);
+            _typeTable[13] = typeof(global::System.Nullable<global::System.Double>);
+            _typeTable[14] = typeof(global::System.Double);
+            _typeTable[15] = typeof(global::System.DateTime);
+            _typeTable[16] = typeof(global::PongCoasterUI.WeightGame);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -250,7 +248,7 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
         private object Activate_5_SettingsPage() { return new global::PongCoasterUI.SettingsPage(); }
         private object Activate_6_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::PongCoasterUI.Model.Coaster>(); }
         private object Activate_7_Collection() { return new global::System.Collections.ObjectModel.Collection<global::PongCoasterUI.Model.Coaster>(); }
-        private object Activate_17_WeightGame() { return new global::PongCoasterUI.WeightGame(); }
+        private object Activate_16_WeightGame() { return new global::PongCoasterUI.WeightGame(); }
         private void VectorAdd_6_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::PongCoasterUI.Model.Coaster>)instance;
@@ -323,7 +321,7 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 break;
 
             case 8:   //  PongCoasterUI.Model.Coaster
-                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MQTTnet.Internal.Disposable"));
+                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Hostname");
                 userType.AddMemberName("Color");
                 userType.AddMemberName("LastWeight");
@@ -337,16 +335,11 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  MQTTnet.Internal.Disposable
-                userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 10:   //  String
+            case 9:   //  String
                 xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  System.Nullable`1<System.Drawing.Color>
+            case 10:   //  System.Nullable`1<System.Drawing.Color>
                 userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetBoxedType(GetXamlTypeByName("System.Drawing.Color"));
                 userType.BoxInstance = userType.BoxType<global::System.Drawing.Color>;
@@ -354,17 +347,17 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  System.ValueType
+            case 11:   //  System.ValueType
                 userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 13:   //  System.Drawing.Color
+            case 12:   //  System.Drawing.Color
                 userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 14:   //  System.Nullable`1<Double>
+            case 13:   //  System.Nullable`1<Double>
                 userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetBoxedType(GetXamlTypeByName("Double"));
                 userType.BoxInstance = userType.BoxType<global::System.Double>;
@@ -372,19 +365,19 @@ namespace PongCoasterUI.PongCoasterUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 15:   //  Double
+            case 14:   //  Double
                 xamlType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  System.DateTime
+            case 15:   //  System.DateTime
                 userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  PongCoasterUI.WeightGame
+            case 16:   //  PongCoasterUI.WeightGame
                 userType = new global::PongCoasterUI.PongCoasterUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_WeightGame;
+                userType.Activator = Activate_16_WeightGame;
                 userType.AddMemberName("Coasters");
                 userType.SetIsLocalType();
                 xamlType = userType;

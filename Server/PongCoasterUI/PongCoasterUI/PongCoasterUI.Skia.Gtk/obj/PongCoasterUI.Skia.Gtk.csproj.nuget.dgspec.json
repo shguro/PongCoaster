@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj": {}
+    "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj": {
+    "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj",
+        "projectUniqueName": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj",
         "projectName": "PongCoasterUI.Skia.Gtk",
-        "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj",
-        "packagesPath": "C:\\Users\\shguro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\obj\\",
+        "projectPath": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\PongCoasterUI.Skia.Gtk.csproj",
+        "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.Skia.Gtk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\NuGet.Config",
-          "C:\\Users\\shguro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\NuGet.Config",
+          "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -35,8 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj": {
-                "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj"
+              "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj": {
+                "projectPath": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj"
               }
             }
           }
@@ -96,26 +96,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj": {
+    "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj",
+        "projectUniqueName": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj",
         "projectName": "PongCoasterUI",
-        "projectPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj",
-        "packagesPath": "C:\\Users\\shguro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\obj\\",
+        "projectPath": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI.csproj",
+        "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\PongCoasterUI\\PongCoasterUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shguro\\Documents\\GitHub\\PongCoaster\\Server\\PongCoasterUI\\NuGet.Config",
-          "C:\\Users\\shguro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tobias\\Documents\\PongCoaster\\Server\\PongCoasterUI\\NuGet.Config",
+          "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,7 +128,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -197,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
@@ -238,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -279,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -321,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.18362": {
           "targetAlias": "net7.0-windows10.0.18362",
@@ -416,7 +415,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

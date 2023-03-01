@@ -5,12 +5,12 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\shguro\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Tobias\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\shguro\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Tobias\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -23,15 +23,15 @@
     <Import Project="$(NuGetPackageRoot)uno.fonts.fluent\2.0.0-dev.20\buildTransitive\Uno.Fonts.Fluent.props" Condition="Exists('$(NuGetPackageRoot)uno.fonts.fluent\2.0.0-dev.20\buildTransitive\Uno.Fonts.Fluent.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\shguro\.nuget\packages\uno.winui\4.7.37</PkgUno_WinUI>
-    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\shguro\.nuget\packages\uno.winui.remotecontrol\4.7.37</PkgUno_WinUI_RemoteControl>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\Tobias\.nuget\packages\uno.winui\4.7.37</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\Tobias\.nuget\packages\uno.winui.remotecontrol\4.7.37</PkgUno_WinUI_RemoteControl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\shguro\.nuget\packages\uno.winui\4.7.37</PkgUno_WinUI>
-    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\shguro\.nuget\packages\uno.winui.remotecontrol\4.7.37</PkgUno_WinUI_RemoteControl>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\Tobias\.nuget\packages\uno.winui\4.7.37</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\Tobias\.nuget\packages\uno.winui.remotecontrol\4.7.37</PkgUno_WinUI_RemoteControl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\shguro\.nuget\packages\uno.winui\4.7.37</PkgUno_WinUI>
-    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\shguro\.nuget\packages\uno.winui.remotecontrol\4.7.37</PkgUno_WinUI_RemoteControl>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\Tobias\.nuget\packages\uno.winui\4.7.37</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\Tobias\.nuget\packages\uno.winui.remotecontrol\4.7.37</PkgUno_WinUI_RemoteControl>
   </PropertyGroup>
 </Project>

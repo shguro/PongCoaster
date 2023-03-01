@@ -4,6 +4,7 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 using System;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
@@ -112,15 +113,41 @@ namespace PongCoasterUI
                 {
                     var hostname = topic.Replace("connected/", "");
                     Console.WriteLine("Connected: " + hostname);
-                    await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, async () =>
                     {
-                        if (CoasterList.FirstOrDefault(coaster => coaster.Hostname == hostname) == null)
+                        var oldCoaster = CoasterList.FirstOrDefault(coaster => coaster.Hostname == hostname);
+                        if(oldCoaster != null)
                         {
-                            var coaster = new Coaster(hostname, client);
-                            coaster.Color =
-                                Helper.Colors.ColorsList[CoasterList.Count % Helper.Colors.ColorsList.Count];
-                            CoasterList.Add(coaster);
+                            CoasterList.Remove(oldCoaster);
+                            client?.UnsubscribeAsync("weight/" + oldCoaster.Hostname);
+                            client?.UnsubscribeAsync("voltage/" + oldCoaster.Hostname);
                         }
+
+                        var coaster = new Coaster(hostname, client);
+                        coaster.Color =
+                            Helper.Colors.ColorsList[CoasterList.Count % Helper.Colors.ColorsList.Count];
+                        client?.SubscribeAsync("weight/" + coaster.Hostname);
+                        client?.SubscribeAsync("voltage/" + coaster.Hostname);
+                        CoasterList.Add(coaster);
+                        await client.PublishAsync("color/" + coaster.Hostname,
+                            $"#{coaster.Color.Value.R:X2}{coaster.Color.Value.G:X2}{coaster.Color.Value.B:X2}");
+                        
+                    });
+                }
+                if (topic.Contains("weight"))
+                {
+                    await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () => {
+                        var hostname = topic.Replace("weight/", "");
+                        var coaster = CoasterList.FirstOrDefault(coaster => coaster.Hostname == hostname);
+                        if (coaster != null) coaster.LastWeight = double.Parse(payload, CultureInfo.InvariantCulture);
+                    });
+                }
+                else if (topic.Contains("voltage"))
+                {
+                    await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () => {
+                        var hostname = topic.Replace("voltage/", "");
+                        var coaster = CoasterList.FirstOrDefault(coaster => coaster.Hostname == hostname);
+                        if (coaster != null) coaster.LastVoltage = double.Parse(payload, CultureInfo.InvariantCulture);
                     });
                 }
             };
@@ -135,7 +162,6 @@ namespace PongCoasterUI
                 {
                     await MainWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
-                        coaster.Dispose();
                         CoasterList.Remove(coaster);
                     });
                 }

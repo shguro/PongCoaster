@@ -14,7 +14,7 @@ using Windows.UI.Core;
 
 namespace PongCoasterUI.Model;
 
-public class Coaster : Disposable, INotifyPropertyChanged
+public class Coaster : INotifyPropertyChanged
 {
     private string? _hostname;
     private Color? _color;
@@ -49,10 +49,6 @@ public class Coaster : Disposable, INotifyPropertyChanged
             if (_color != value)
             {
                 _color = value;
-                if (Client != null)
-                    if (_color != null)
-                        Client.PublishAsync("color/" + Hostname,
-                            $"#{_color.Value.R:X2}{_color.Value.G:X2}{_color.Value.B:X2}");
                 OnPropertyChanged(nameof(Color));
             }
         }
@@ -137,44 +133,13 @@ public class Coaster : Disposable, INotifyPropertyChanged
     {
         Hostname = hostname;
         Client = client;
-        client?.SubscribeAsync("weight/" + hostname);
-        client?.SubscribeAsync("voltage/" + hostname);
-        if (client != null) client.MessageReceived += OnMessageReceived;
     }
 
     public async Task Tare()
     {
         if (Client != null) await Client.PublishAsync("tare/" + Hostname, "");
     }
-
-    protected override void Dispose(bool disposing){
-        
-        if (disposing)
-        {
-            Client?.UnsubscribeAsync("weight/" + Hostname);
-            Client?.UnsubscribeAsync("voltage/" + Hostname);
-            if (Client != null) Client.MessageReceived -= OnMessageReceived;
-        }
-        base.Dispose(disposing);    
-    }
-
-    private async Task OnMessageReceived(MqttApplicationMessageReceivedEventArgs e)
-    {
-        var topic = e.ApplicationMessage.Topic;
-        var payload = e.ApplicationMessage.ConvertPayloadToString();
-        if (topic == "weight/" + Hostname)
-        {
-            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => {
-                LastWeight = double.Parse(payload, CultureInfo.InvariantCulture);
-            });
-        }
-        else if (topic == "voltage/" + Hostname)
-        {
-            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => {
-                LastVoltage = double.Parse(payload, CultureInfo.InvariantCulture);
-            });
-        }
-    }
+    
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -183,11 +148,4 @@ public class Coaster : Disposable, INotifyPropertyChanged
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 
-    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
-    {
-        if (EqualityComparer<T>.Default.Equals(field, value)) return false;
-        field = value;
-        OnPropertyChanged(propertyName);
-        return true;
-    }
 }

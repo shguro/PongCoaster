@@ -3,7 +3,7 @@ build_property.XamlSourceGeneratorTracingFolder =
 build_property.TargetFramework = net7.0-android
 build_property.TargetFramework = net7.0-android
 build_property.ProjectTypeGuidsProperty = 
-build_property.MSBuildProjectFullPath = C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Mobile\PongCoasterUI.Mobile.csproj
+build_property.MSBuildProjectFullPath = C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Mobile\PongCoasterUI.Mobile.csproj
 build_property.RootNamespace = PongCoasterUI.Mobile
 build_property.RootNamespace = PongCoasterUI.Mobile
 build_property.DefineConstantsProperty = TRACE,DEBUG,NET,NET7_0,NETCOREAPP,HAS_UNO,HAS_UNO_WINUI,UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE,UNO_HAS_NO_IDEPENDENCYOBJECT,UNO_REFERENCE_API,__XAMARIN_ANDROID_v1_0__,__MOBILE__,__ANDROID__,__ANDROID_1__,__ANDROID_2__,__ANDROID_3__,__ANDROID_4__,__ANDROID_5__,__ANDROID_6__,__ANDROID_7__,__ANDROID_8__,__ANDROID_9__,__ANDROID_10__,__ANDROID_11__,__ANDROID_12__,__ANDROID_13__,__ANDROID_14__,__ANDROID_15__,__ANDROID_16__,__ANDROID_17__,__ANDROID_18__,__ANDROID_19__,__ANDROID_20__,__ANDROID_21__,__ANDROID_22__,__ANDROID_23__,__ANDROID_24__,__ANDROID_25__,__ANDROID_26__,__ANDROID_27__,__ANDROID_28__,__ANDROID_29__,__ANDROID_30__,__ANDROID_31__,__ANDROID_32__,__ANDROID_33__
@@ -12,10 +12,10 @@ build_property.IntermediateOutputPath = obj\Debug\net7.0-android\
 build_property.AndroidApplication = true
 build_property.OutputType = Library
 build_property.MSBuildProjectName = PongCoasterUI.Mobile
-build_property.BuildingProject = false
-build_property.DesignTimeBuild = true
+build_property.BuildingProject = False
+build_property.DesignTimeBuild = True
 build_property.UnoUISourceGeneratorDebuggerBreak = 
-build_property.BuildingInsideVisualStudio = true
+build_property.BuildingInsideVisualStudio = True
 build_property.IsHotReloadHost = 
 build_property.UnoUseXamlReaderHotReload = true
 build_property.IsUnoHead = true
@@ -23,7 +23,7 @@ build_property.IsUnoHead = true
 build_property.UseWPF = 
 build_property.UnoRemoteControlPort = 
 build_property.UnoRemoteControlHost = 
-build_property.UnoRemoteControlProcessorsPath = C:\Users\shguro\.nuget\packages\uno.winui.remotecontrol\4.7.37\buildTransitive\../tools/rc/processors
+build_property.UnoRemoteControlProcessorsPath = C:\Users\Tobias\.nuget\packages\uno.winui.remotecontrol\4.7.37\buildTransitive\../tools/rc/processors
 build_property.UseUnoXamlParser = 
 build_property.UnoSkipUserControlsInVisualTree = 
 build_property.ShouldWriteErrorOnInvalidXaml = 
@@ -50,20 +50,20 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
-build_property.ProjectDir = C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Mobile\
+build_property.ProjectDir = C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Mobile\
 
-[C:/Users/shguro/Documents/GitHub/PongCoaster/Server/PongCoasterUI/PongCoasterUI/PongCoasterUI.Base/AppHead.xaml]
+[C:/Users/Tobias/Documents/PongCoaster/Server/PongCoasterUI/PongCoasterUI/PongCoasterUI.Base/AppHead.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = ApplicationDefinition
 build_metadata.AdditionalFiles.Link = AppHead.xaml
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Base\AppHead.xaml
-build_metadata.AdditionalFiles.Identity = C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Base\AppHead.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Base\AppHead.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI.Base\AppHead.xaml
 build_metadata.AdditionalFiles.XamlRuntime = WinUI
 
-[C:/Users/shguro/Documents/GitHub/PongCoaster/Server/PongCoasterUI/PongCoasterUI/PongCoasterUI/PongCoasterUI.csproj]
+[C:/Users/Tobias/Documents/PongCoaster/Server/PongCoasterUI/PongCoasterUI/PongCoasterUI/PongCoasterUI.csproj]
 build_metadata.AdditionalFiles.SourceItemGroup = ProjectReference
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI\PongCoasterUI.csproj
-build_metadata.AdditionalFiles.Identity = C:\Users\shguro\Documents\GitHub\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI\PongCoasterUI.csproj
+build_metadata.AdditionalFiles.FullPath = C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI\PongCoasterUI.csproj
+build_metadata.AdditionalFiles.Identity = C:\Users\Tobias\Documents\PongCoaster\Server\PongCoasterUI\PongCoasterUI\PongCoasterUI\PongCoasterUI.csproj
 build_metadata.AdditionalFiles.XamlRuntime = 
